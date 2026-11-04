@@ -1,0 +1,3 @@
+Synthetic browser-raw.dng: generated test chart, no user image data.
+Browser-speech.wav: 11-second mono16k excerpt of the standard JFK speech fixture used by whisper.cpp examples; United States presidential speech recording. Used only for local speech regression verification.
+LiberationSans test font is read from pdfjs-dist; its LICENSE_LIBERATION is retained in that dependency and the prepared public engine assets.
