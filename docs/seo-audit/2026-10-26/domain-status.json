@@ -1,0 +1,56 @@
+{
+  "clientDate": "2026-10-26",
+  "scope": "Read-only public DNS check. No DNS or hosting records changed.",
+  "cloudflareConnection": {
+    "exactZoneFilter": "localconverter.tech",
+    "httpStatus": 200,
+    "visibleZones": 0,
+    "note": "Zone not visible to the app connection; this does not disprove its presence in another Cloudflare account."
+  },
+  "results": [
+    {
+      "hostname": "localconverter.tech",
+      "lookup": {
+        "error": "ENOTFOUND"
+      },
+      "NS": ["fiona.ns.cloudflare.com", "rustam.ns.cloudflare.com"],
+      "A": {
+        "error": "ENODATA"
+      },
+      "AAAA": {
+        "error": "ENODATA"
+      },
+      "CNAME": {
+        "error": "ENODATA"
+      },
+      "cloudflareDoH": {
+        "httpStatus": 200,
+        "dnsStatus": 0,
+        "answer": []
+      }
+    },
+    {
+      "hostname": "www.localconverter.tech",
+      "lookup": {
+        "error": "ENOTFOUND"
+      },
+      "NS": {
+        "error": "ENOTFOUND"
+      },
+      "A": {
+        "error": "ENOTFOUND"
+      },
+      "AAAA": {
+        "error": "ENOTFOUND"
+      },
+      "CNAME": {
+        "error": "ENOTFOUND"
+      },
+      "cloudflareDoH": {
+        "httpStatus": 200,
+        "dnsStatus": 3,
+        "answer": []
+      }
+    }
+  ]
+}

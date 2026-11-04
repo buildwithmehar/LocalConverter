@@ -1,0 +1,286 @@
+{
+  "toolCount": 79,
+  "familyCount": 70,
+  "coverage": [
+    {
+      "family": 1,
+      "tools": ["heic-converter"]
+    },
+    {
+      "family": 2,
+      "tools": ["bmp-converter"]
+    },
+    {
+      "family": 3,
+      "tools": ["icon-favicon"]
+    },
+    {
+      "family": 4,
+      "tools": ["jfif-converter"]
+    },
+    {
+      "family": 5,
+      "tools": ["jxl-converter"]
+    },
+    {
+      "family": 6,
+      "tools": ["raw-converter"]
+    },
+    {
+      "family": 7,
+      "tools": ["image-vectorize"]
+    },
+    {
+      "family": 8,
+      "tools": ["compress-image"]
+    },
+    {
+      "family": 9,
+      "tools": ["resize-image", "resize-print-image"]
+    },
+    {
+      "family": 10,
+      "tools": ["crop-image"]
+    },
+    {
+      "family": 11,
+      "tools": ["passport-signature"]
+    },
+    {
+      "family": 12,
+      "tools": ["image-watermark"]
+    },
+    {
+      "family": 13,
+      "tools": ["image-collage"]
+    },
+    {
+      "family": 14,
+      "tools": ["image-dpi"]
+    },
+    {
+      "family": 15,
+      "tools": ["image-metadata"]
+    },
+    {
+      "family": 16,
+      "tools": ["gif-maker"]
+    },
+    {
+      "family": 17,
+      "tools": ["animation-to-video"]
+    },
+    {
+      "family": 18,
+      "tools": ["animation-convert"]
+    },
+    {
+      "family": 19,
+      "tools": ["animation-convert"]
+    },
+    {
+      "family": 20,
+      "tools": ["video-to-animation"]
+    },
+    {
+      "family": 21,
+      "tools": ["extract-frames"]
+    },
+    {
+      "family": 22,
+      "tools": ["compress-gif"]
+    },
+    {
+      "family": 23,
+      "tools": ["edit-animation"]
+    },
+    {
+      "family": 24,
+      "tools": ["images-to-pdf"]
+    },
+    {
+      "family": 25,
+      "tools": ["merge-pdf", "split-pdf", "reorder-pdf", "rotate-pdf"]
+    },
+    {
+      "family": 26,
+      "tools": ["compress-pdf"]
+    },
+    {
+      "family": 27,
+      "tools": ["ocr-document"]
+    },
+    {
+      "family": 28,
+      "tools": ["office-render"]
+    },
+    {
+      "family": 29,
+      "tools": ["compress-audio"]
+    },
+    {
+      "family": 30,
+      "tools": ["compress-video"]
+    },
+    {
+      "family": 31,
+      "tools": ["transform-video"]
+    },
+    {
+      "family": 32,
+      "tools": ["join-audio", "join-video"]
+    },
+    {
+      "family": 33,
+      "tools": ["mute-video", "replace-video-audio"]
+    },
+    {
+      "family": 34,
+      "tools": ["audio-waveform", "video-thumbnail"]
+    },
+    {
+      "family": 35,
+      "tools": ["image-base64"]
+    },
+    {
+      "family": 36,
+      "tools": ["svg-gzip"]
+    },
+    {
+      "family": 37,
+      "tools": ["remove-background"]
+    },
+    {
+      "family": 38,
+      "tools": ["photo-background"]
+    },
+    {
+      "family": 39,
+      "tools": ["ai-upscale"]
+    },
+    {
+      "family": 40,
+      "tools": ["lottie-render"]
+    },
+    {
+      "family": 41,
+      "tools": ["protect-pdf", "unlock-pdf"]
+    },
+    {
+      "family": 42,
+      "tools": ["stamp-pdf"]
+    },
+    {
+      "family": 43,
+      "tools": ["fill-pdf-form"]
+    },
+    {
+      "family": 44,
+      "tools": ["extract-pdf-images"]
+    },
+    {
+      "family": 45,
+      "tools": ["compare-pdfs"]
+    },
+    {
+      "family": 46,
+      "tools": ["pdf-tables"]
+    },
+    {
+      "family": 47,
+      "tools": ["pdf-markdown"]
+    },
+    {
+      "family": 48,
+      "tools": ["scan-cleanup"]
+    },
+    {
+      "family": 49,
+      "tools": ["render-html"]
+    },
+    {
+      "family": 50,
+      "tools": ["convert-ebook"]
+    },
+    {
+      "family": 51,
+      "tools": ["semantic-document"]
+    },
+    {
+      "family": 52,
+      "tools": ["convert-font"]
+    },
+    {
+      "family": 53,
+      "tools": ["psd-export"]
+    },
+    {
+      "family": 54,
+      "tools": ["svg-optimize"]
+    },
+    {
+      "family": 55,
+      "tools": ["svg-sprite"]
+    },
+    {
+      "family": 56,
+      "tools": ["convert-native-video"]
+    },
+    {
+      "family": 57,
+      "tools": ["convert-native-audio"]
+    },
+    {
+      "family": 58,
+      "tools": ["convert-subtitles"]
+    },
+    {
+      "family": 59,
+      "tools": ["burn-subtitles"]
+    },
+    {
+      "family": 60,
+      "tools": ["normalize-audio"]
+    },
+    {
+      "family": 61,
+      "tools": ["transcribe-media"]
+    },
+    {
+      "family": 62,
+      "tools": ["archive-browser", "create-archive"]
+    },
+    {
+      "family": 63,
+      "tools": ["repack-tar"]
+    },
+    {
+      "family": 64,
+      "tools": ["clean-csv"]
+    },
+    {
+      "family": 65,
+      "tools": ["structured-data"]
+    },
+    {
+      "family": 66,
+      "tools": ["format-data"]
+    },
+    {
+      "family": 67,
+      "tools": ["file-checksum"]
+    },
+    {
+      "family": 68,
+      "tools": ["create-code", "read-code"]
+    },
+    {
+      "family": 69,
+      "tools": ["color-palette"]
+    },
+    {
+      "family": 70,
+      "tools": ["text-encoding"]
+    }
+  ]
+}

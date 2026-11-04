@@ -1,0 +1,13 @@
+# Data, archive and shared integration report
+
+13 tools cover families 35–36 and 62–70 in shared/data-tools.js and server/conversion/data-toolbox.js. All 70 families are mapped across 79 tool pages; 161 original conversion pairs remain.
+
+Actual outputs: image/Base64 roundtrip, bounded SVGZ, archive inventories and selected-member ZIPs, archive creation and TAR/GZIP/BZIP2/XZ repacking, CSV cleaning, nested JSON/XML/TOML/YAML, format/validation reports, SHA-256/512 comparison, QR and Code128/EAN13 generation, image code reading, HEX/RGB/HSL palette ZIP, character encodings and Base64/URL/HTML escapes.
+
+Archive member extraction uses bounded memory pipes and safe paths, never arbitrary native extraction. RAR extraction only. Expanded bytes and entries are bounded; BZIP2 unknown expansion size remains bounded during streaming. Character sets reject unrepresentable output. XML forbids doctypes/entities, rejects reserved object keys and keeps mixed-content order/whitespace in its formatting path. The XML wrapper/entity and mixed-content bugs found during independent review have regression tests.
+
+Shared integration validates metadata-defined options, supports typed numeric selects and decimal dimensions, file/text inputs, per-session job isolation, aggregate upload limits, all-input retry, compound archive filenames, and redacted password options. Backend engines are dynamically imported only in a queued worker. The catalogue is searchable/category-filtered; homepage retains six essential shortcuts. Related tools and navigation lists are capped. Result image previews open on demand and unmount on closing; text previews are bounded to 4,000 characters. Shared reveal animation remains bounded to eight active elements and honors reduced motion; no page opacity transition is used.
+
+Verification: tests/data-toolbox.test.js exercises seven groups, including all70-family/default validation, actual image/SVGZ bytes, parsed structured data, checksums/encoding, QR encode/decode, EAN13 SVG, colour ZIP, native archive formats, traversal rejection and XML regressions. Project-wide and browser verification is recorded in docs/verification.md.
+
+Limitations: code recognition requires one clear code. XML→object mappings use explicit attribute/text keys; semantic mixed-content conversion to JSON is not a lossless XML representation. Archive inventory is a downloadable JSON with an inline bounded preview, not a general filesystem manager. Colour palette output is a ZIP with SVG+JSON. Text input uses explicit encodings and local files; no URL fetching occurs. No browser click is presented as a successful conversion without a real output.

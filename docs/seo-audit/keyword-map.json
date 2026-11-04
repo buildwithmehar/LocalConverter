@@ -1,0 +1,2084 @@
+{
+  "origin": "https://localconverter.tech",
+  "mode": "browser",
+  "pages": 346,
+  "method": "Current route/title/description intent inventory; not search-volume or ranking estimates.",
+  "routes": [
+    {
+      "path": "/",
+      "title": "Local File Converter — Local Converter",
+      "description": "Convert images, PDFs, documents, audio, video and data on your computer. Explore local file converters, compression tools and developer utilities.",
+      "canonical": "https://localconverter.tech/"
+    },
+    {
+      "path": "/tools",
+      "title": "Local conversion tools — Local Converter",
+      "description": "Browse image compressors, PDF tools, media converters, JSON utilities and text tools. Find supported local tools by file format or task.",
+      "canonical": "https://localconverter.tech/tools"
+    },
+    {
+      "path": "/formats",
+      "title": "Supported file formats — Local Converter",
+      "description": "Find supported image, document, audio, video, archive and data formats. Compare compatible source and output formats before converting locally.",
+      "canonical": "https://localconverter.tech/formats"
+    },
+    {
+      "path": "/help",
+      "title": "Help center — Local Converter",
+      "description": "Find answers about file formats, failed conversions, output settings and expired downloads in this browser workspace.",
+      "canonical": "https://localconverter.tech/help"
+    },
+    {
+      "path": "/about",
+      "title": "About — Local Converter",
+      "description": "Local Converter is an independent local file conversion application. Its browser interface connects to installed tools on the same computer.",
+      "canonical": "https://localconverter.tech/about"
+    },
+    {
+      "path": "/how-it-works",
+      "title": "How it works — Local Converter",
+      "description": "Select a source, choose a supported output, run the local conversion and download a separate result. Keep the original until you have checked the output.",
+      "canonical": "https://localconverter.tech/how-it-works"
+    },
+    {
+      "path": "/security",
+      "title": "Data security — Local Converter",
+      "description": "Learn how local processing, session ownership and temporary job storage work, and understand their practical limits.",
+      "canonical": "https://localconverter.tech/security"
+    },
+    {
+      "path": "/privacy",
+      "title": "Privacy — Local Converter",
+      "description": "Selected files are processed by the app on your own computer. Read how browser selections, local working copies and downloaded results differ.",
+      "canonical": "https://localconverter.tech/privacy"
+    },
+    {
+      "path": "/terms",
+      "title": "Terms of use — Local Converter",
+      "description": "Review supported conversions, output limitations and third-party software licenses before relying on a local result.",
+      "canonical": "https://localconverter.tech/terms"
+    },
+    {
+      "path": "/archive-converter",
+      "title": "Archive Converter — Local Converter",
+      "description": "Inspect supported archives and package files locally. Browse compatible formats, available conversions and practical output notes.",
+      "canonical": "https://localconverter.tech/archive-converter"
+    },
+    {
+      "path": "/image-converter",
+      "title": "Image Converter — Local Converter",
+      "description": "Convert image formats such as PNG, JPG, WebP and AVIF on your computer. Browse compatible formats, available conversions and practical output notes.",
+      "canonical": "https://localconverter.tech/image-converter"
+    },
+    {
+      "path": "/vector-converter",
+      "title": "Vector Converter — Local Converter",
+      "description": "Render supported SVG graphics into compatible image formats locally. Browse compatible formats, available conversions and practical output notes.",
+      "canonical": "https://localconverter.tech/vector-converter"
+    },
+    {
+      "path": "/document-converter",
+      "title": "Document Converter — Local Converter",
+      "description": "Convert supported document content, create PDFs and work with PDF pages locally. Browse compatible formats, available conversions and practical output notes.",
+      "canonical": "https://localconverter.tech/document-converter"
+    },
+    {
+      "path": "/spreadsheet-converter",
+      "title": "Spreadsheet Converter — Local Converter",
+      "description": "Export supported spreadsheet data into compatible formats locally. Browse compatible formats, available conversions and practical output notes.",
+      "canonical": "https://localconverter.tech/spreadsheet-converter"
+    },
+    {
+      "path": "/data-converter",
+      "title": "Data Converter — Local Converter",
+      "description": "Convert supported JSON, CSV, XML, YAML and text data with local tools. Browse compatible formats, available conversions and practical output notes.",
+      "canonical": "https://localconverter.tech/data-converter"
+    },
+    {
+      "path": "/subtitle-converter",
+      "title": "Subtitle Converter — Local Converter",
+      "description": "Convert supported subtitle cues and timed text locally. Browse compatible formats, available conversions and practical output notes.",
+      "canonical": "https://localconverter.tech/subtitle-converter"
+    },
+    {
+      "path": "/audio-converter",
+      "title": "Audio Converter — Local Converter",
+      "description": "Convert supported audio formats and extract existing soundtracks from videos using the browser conversion engines. Browse compatible formats, available conversions and practical output notes.",
+      "canonical": "https://localconverter.tech/audio-converter"
+    },
+    {
+      "path": "/video-converter",
+      "title": "Video Converter — Local Converter",
+      "description": "Re-encode supported video files, extract audio or create short GIF clips locally. Browse compatible formats, available conversions and practical output notes.",
+      "canonical": "https://localconverter.tech/video-converter"
+    },
+    {
+      "path": "/tar-converter",
+      "title": "TAR Converter — Local Converter",
+      "description": "Convert TAR files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/tar-converter"
+    },
+    {
+      "path": "/to-tar",
+      "title": "Convert to TAR — Local Converter",
+      "description": "Convert supported files to TAR locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-tar"
+    },
+    {
+      "path": "/jpg-converter",
+      "title": "JPG Converter — Local Converter",
+      "description": "Convert JPG files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/jpg-converter"
+    },
+    {
+      "path": "/to-jpg",
+      "title": "Convert to JPG — Local Converter",
+      "description": "Convert supported files to JPG locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-jpg"
+    },
+    {
+      "path": "/png-converter",
+      "title": "PNG Converter — Local Converter",
+      "description": "Convert PNG files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/png-converter"
+    },
+    {
+      "path": "/to-png",
+      "title": "Convert to PNG — Local Converter",
+      "description": "Convert supported files to PNG locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-png"
+    },
+    {
+      "path": "/webp-converter",
+      "title": "WEBP Converter — Local Converter",
+      "description": "Convert WEBP files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/webp-converter"
+    },
+    {
+      "path": "/to-webp",
+      "title": "Convert to WEBP — Local Converter",
+      "description": "Convert supported files to WEBP locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-webp"
+    },
+    {
+      "path": "/avif-converter",
+      "title": "AVIF Converter — Local Converter",
+      "description": "Convert AVIF files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/avif-converter"
+    },
+    {
+      "path": "/to-avif",
+      "title": "Convert to AVIF — Local Converter",
+      "description": "Convert supported files to AVIF locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-avif"
+    },
+    {
+      "path": "/gif-converter",
+      "title": "GIF Converter — Local Converter",
+      "description": "Convert GIF files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/gif-converter"
+    },
+    {
+      "path": "/to-gif",
+      "title": "Convert to GIF — Local Converter",
+      "description": "Convert supported files to GIF locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-gif"
+    },
+    {
+      "path": "/tiff-converter",
+      "title": "TIFF Converter — Local Converter",
+      "description": "Convert TIFF files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/tiff-converter"
+    },
+    {
+      "path": "/to-tiff",
+      "title": "Convert to TIFF — Local Converter",
+      "description": "Convert supported files to TIFF locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-tiff"
+    },
+    {
+      "path": "/svg-converter",
+      "title": "SVG Converter — Local Converter",
+      "description": "Convert SVG files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/svg-converter"
+    },
+    {
+      "path": "/pdf-converter",
+      "title": "PDF Converter — Local Converter",
+      "description": "Convert PDF files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/pdf-converter"
+    },
+    {
+      "path": "/to-pdf",
+      "title": "Convert to PDF — Local Converter",
+      "description": "Convert supported files to PDF locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-pdf"
+    },
+    {
+      "path": "/txt-converter",
+      "title": "TXT Converter — Local Converter",
+      "description": "Convert TXT files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/txt-converter"
+    },
+    {
+      "path": "/to-txt",
+      "title": "Convert to TXT — Local Converter",
+      "description": "Convert supported files to TXT locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-txt"
+    },
+    {
+      "path": "/md-converter",
+      "title": "MD Converter — Local Converter",
+      "description": "Convert MD files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/md-converter"
+    },
+    {
+      "path": "/html-converter",
+      "title": "HTML Converter — Local Converter",
+      "description": "Convert HTML files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/html-converter"
+    },
+    {
+      "path": "/to-html",
+      "title": "Convert to HTML — Local Converter",
+      "description": "Convert supported files to HTML locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-html"
+    },
+    {
+      "path": "/docx-converter",
+      "title": "DOCX Converter — Local Converter",
+      "description": "Convert DOCX files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/docx-converter"
+    },
+    {
+      "path": "/csv-converter",
+      "title": "CSV Converter — Local Converter",
+      "description": "Convert CSV files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/csv-converter"
+    },
+    {
+      "path": "/to-csv",
+      "title": "Convert to CSV — Local Converter",
+      "description": "Convert supported files to CSV locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-csv"
+    },
+    {
+      "path": "/tsv-converter",
+      "title": "TSV Converter — Local Converter",
+      "description": "Convert TSV files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/tsv-converter"
+    },
+    {
+      "path": "/to-tsv",
+      "title": "Convert to TSV — Local Converter",
+      "description": "Convert supported files to TSV locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-tsv"
+    },
+    {
+      "path": "/xlsx-converter",
+      "title": "XLSX Converter — Local Converter",
+      "description": "Convert XLSX files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/xlsx-converter"
+    },
+    {
+      "path": "/to-xlsx",
+      "title": "Convert to XLSX — Local Converter",
+      "description": "Convert supported files to XLSX locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-xlsx"
+    },
+    {
+      "path": "/json-converter",
+      "title": "JSON Converter — Local Converter",
+      "description": "Convert JSON files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/json-converter"
+    },
+    {
+      "path": "/to-json",
+      "title": "Convert to JSON — Local Converter",
+      "description": "Convert supported files to JSON locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-json"
+    },
+    {
+      "path": "/yaml-converter",
+      "title": "YAML Converter — Local Converter",
+      "description": "Convert YAML files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/yaml-converter"
+    },
+    {
+      "path": "/to-yaml",
+      "title": "Convert to YAML — Local Converter",
+      "description": "Convert supported files to YAML locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-yaml"
+    },
+    {
+      "path": "/srt-converter",
+      "title": "SRT Converter — Local Converter",
+      "description": "Convert SRT files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/srt-converter"
+    },
+    {
+      "path": "/to-srt",
+      "title": "Convert to SRT — Local Converter",
+      "description": "Convert supported files to SRT locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-srt"
+    },
+    {
+      "path": "/vtt-converter",
+      "title": "VTT Converter — Local Converter",
+      "description": "Convert VTT files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/vtt-converter"
+    },
+    {
+      "path": "/to-vtt",
+      "title": "Convert to VTT — Local Converter",
+      "description": "Convert supported files to VTT locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-vtt"
+    },
+    {
+      "path": "/zip-converter",
+      "title": "ZIP Converter — Local Converter",
+      "description": "Convert ZIP files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/zip-converter"
+    },
+    {
+      "path": "/to-zip",
+      "title": "Convert to ZIP — Local Converter",
+      "description": "Convert supported files to ZIP locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-zip"
+    },
+    {
+      "path": "/gz-converter",
+      "title": "GZ Converter — Local Converter",
+      "description": "Convert GZ files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/gz-converter"
+    },
+    {
+      "path": "/to-gz",
+      "title": "Convert to GZ — Local Converter",
+      "description": "Convert supported files to GZ locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-gz"
+    },
+    {
+      "path": "/mp3-converter",
+      "title": "MP3 Converter — Local Converter",
+      "description": "Convert MP3 files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/mp3-converter"
+    },
+    {
+      "path": "/to-mp3",
+      "title": "Convert to MP3 — Local Converter",
+      "description": "Convert supported files to MP3 locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-mp3"
+    },
+    {
+      "path": "/wav-converter",
+      "title": "WAV Converter — Local Converter",
+      "description": "Convert WAV files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/wav-converter"
+    },
+    {
+      "path": "/to-wav",
+      "title": "Convert to WAV — Local Converter",
+      "description": "Convert supported files to WAV locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-wav"
+    },
+    {
+      "path": "/flac-converter",
+      "title": "FLAC Converter — Local Converter",
+      "description": "Convert FLAC files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/flac-converter"
+    },
+    {
+      "path": "/to-flac",
+      "title": "Convert to FLAC — Local Converter",
+      "description": "Convert supported files to FLAC locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-flac"
+    },
+    {
+      "path": "/ogg-converter",
+      "title": "OGG Converter — Local Converter",
+      "description": "Convert OGG files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/ogg-converter"
+    },
+    {
+      "path": "/to-ogg",
+      "title": "Convert to OGG — Local Converter",
+      "description": "Convert supported files to OGG locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-ogg"
+    },
+    {
+      "path": "/m4a-converter",
+      "title": "M4A Converter — Local Converter",
+      "description": "Convert M4A files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/m4a-converter"
+    },
+    {
+      "path": "/to-m4a",
+      "title": "Convert to M4A — Local Converter",
+      "description": "Convert supported files to M4A locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-m4a"
+    },
+    {
+      "path": "/aiff-converter",
+      "title": "AIFF Converter — Local Converter",
+      "description": "Convert AIFF files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/aiff-converter"
+    },
+    {
+      "path": "/to-aiff",
+      "title": "Convert to AIFF — Local Converter",
+      "description": "Convert supported files to AIFF locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-aiff"
+    },
+    {
+      "path": "/mp4-converter",
+      "title": "MP4 Converter — Local Converter",
+      "description": "Convert MP4 files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/mp4-converter"
+    },
+    {
+      "path": "/to-mp4",
+      "title": "Convert to MP4 — Local Converter",
+      "description": "Convert supported files to MP4 locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-mp4"
+    },
+    {
+      "path": "/webm-converter",
+      "title": "WEBM Converter — Local Converter",
+      "description": "Convert WEBM files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/webm-converter"
+    },
+    {
+      "path": "/to-webm",
+      "title": "Convert to WEBM — Local Converter",
+      "description": "Convert supported files to WEBM locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-webm"
+    },
+    {
+      "path": "/mov-converter",
+      "title": "MOV Converter — Local Converter",
+      "description": "Convert MOV files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/mov-converter"
+    },
+    {
+      "path": "/to-mov",
+      "title": "Convert to MOV — Local Converter",
+      "description": "Convert supported files to MOV locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-mov"
+    },
+    {
+      "path": "/mkv-converter",
+      "title": "MKV Converter — Local Converter",
+      "description": "Convert MKV files locally to supported output formats. Review compatible conversions, settings and format limitations before downloading a new copy.",
+      "canonical": "https://localconverter.tech/mkv-converter"
+    },
+    {
+      "path": "/to-mkv",
+      "title": "Convert to MKV — Local Converter",
+      "description": "Convert supported files to MKV locally. Compare available input formats and read settings and limitations for each conversion before saving your result.",
+      "canonical": "https://localconverter.tech/to-mkv"
+    },
+    {
+      "path": "/compress-image",
+      "title": "Image Compressor — Reduce Image Size in KB — Local Converter",
+      "description": "Make an image fit your upload limit. Use Compress image locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/compress-image"
+    },
+    {
+      "path": "/resize-image",
+      "title": "Image Resizer — Resize Photos in Pixels — Local Converter",
+      "description": "Set the exact width and height you need. Use Resize image locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/resize-image"
+    },
+    {
+      "path": "/crop-image",
+      "title": "Crop, Rotate &amp; Flip Images — Local Converter",
+      "description": "Keep the part that matters. Use Crop &amp; rotate image locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/crop-image"
+    },
+    {
+      "path": "/merge-pdf",
+      "title": "Merge PDF — Local Converter",
+      "description": "Bring your documents into one PDF. Use Merge PDF locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/merge-pdf"
+    },
+    {
+      "path": "/split-pdf",
+      "title": "Split PDF — Local Converter",
+      "description": "Save the pages you need. Use Split PDF locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/split-pdf"
+    },
+    {
+      "path": "/images-to-pdf",
+      "title": "Images to PDF — Local Converter",
+      "description": "Turn selected images into one document. Use Images to PDF locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/images-to-pdf"
+    },
+    {
+      "path": "/heic-converter",
+      "title": "HEIC / HEIF converter — Local Converter",
+      "description": "Open iPhone photos in the image format your next app accepts. Use HEIC / HEIF converter locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/heic-converter"
+    },
+    {
+      "path": "/bmp-converter",
+      "title": "BMP converter — Local Converter",
+      "description": "Convert a Windows bitmap or make a BMP from a photo. Use BMP converter locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/bmp-converter"
+    },
+    {
+      "path": "/icon-favicon",
+      "title": "ICO and favicon pack — Local Converter",
+      "description": "Make a crisp website icon in the sizes browsers and devices need. Use ICO and favicon pack locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/icon-favicon"
+    },
+    {
+      "path": "/jfif-converter",
+      "title": "JFIF converter — Local Converter",
+      "description": "Save a JFIF photo as a regular JPG or transparent-capable PNG. Use JFIF converter locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/jfif-converter"
+    },
+    {
+      "path": "/jxl-converter",
+      "title": "JPEG XL converter — Local Converter",
+      "description": "Open a still JPEG XL image as PNG, JPG or WebP. Use JPEG XL converter locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/jxl-converter"
+    },
+    {
+      "path": "/raw-converter",
+      "title": "Camera RAW converter — Local Converter",
+      "description": "Develop a camera RAW file into a shareable image. Use Camera RAW converter locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/raw-converter"
+    },
+    {
+      "path": "/image-vectorize",
+      "title": "Raster to SVG vectorizer — Local Converter",
+      "description": "Trace a bitmap into editable, scalable SVG paths. Use Raster to SVG vectorizer locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/image-vectorize"
+    },
+    {
+      "path": "/resize-print-image",
+      "title": "Resize in centimetres, millimetres or inches — Local Converter",
+      "description": "Choose a printed size in millimetres, centimetres or inches. Use Resize in centimetres, millimetres or inches locally with practical instructions, output settings and format.",
+      "canonical": "https://localconverter.tech/resize-print-image"
+    },
+    {
+      "path": "/passport-signature",
+      "title": "Passport photo / signature resizer — Local Converter",
+      "description": "Set exact photo or signature dimensions, DPI and an optional upload limit. Use Passport photo / signature resizer locally with practical instructions, output settings and.",
+      "canonical": "https://localconverter.tech/passport-signature"
+    },
+    {
+      "path": "/image-watermark",
+      "title": "Text or logo watermark — Local Converter",
+      "description": "Place your name or logo on a photo with controlled opacity. Use Text or logo watermark locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/image-watermark"
+    },
+    {
+      "path": "/image-collage",
+      "title": "Join images / collage — Local Converter",
+      "description": "Arrange photos on one canvas with consistent spacing. Use Join images / collage locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/image-collage"
+    },
+    {
+      "path": "/image-dpi",
+      "title": "DPI checker and converter — Local Converter",
+      "description": "Inspect print resolution or write the DPI your printer needs. Use DPI checker and converter locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/image-dpi"
+    },
+    {
+      "path": "/image-metadata",
+      "title": "View / remove image metadata — Local Converter",
+      "description": "Inspect image metadata or save a clean copy without it. Use View / remove image metadata locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/image-metadata"
+    },
+    {
+      "path": "/remove-background",
+      "title": "Remove background — Local Converter",
+      "description": "Isolate a subject on a transparent background with local AI. Use Remove background locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/remove-background"
+    },
+    {
+      "path": "/photo-background",
+      "title": "Blur / replace photo background — Local Converter",
+      "description": "Keep the subject and blur, recolour or replace its background. Use Blur / replace photo background locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/photo-background"
+    },
+    {
+      "path": "/ai-upscale",
+      "title": "AI upscale and denoise — Local Converter",
+      "description": "Enlarge a small image with neural super-resolution and optional denoising. Use AI upscale and denoise locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/ai-upscale"
+    },
+    {
+      "path": "/scan-cleanup",
+      "title": "Document scan cleanup — Local Converter",
+      "description": "Straighten a photographed page and improve its readability. Use Document scan cleanup locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/scan-cleanup"
+    },
+    {
+      "path": "/psd-export",
+      "title": "PSD / PSB preview and layers — Local Converter",
+      "description": "Open a Photoshop preview or export rasterized layers together. Use PSD / PSB preview and layers locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/psd-export"
+    },
+    {
+      "path": "/svg-optimize",
+      "title": "SVG optimizer — Local Converter",
+      "description": "Reduce SVG markup while keeping its viewBox and element IDs. Use SVG optimizer locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/svg-optimize"
+    },
+    {
+      "path": "/svg-sprite",
+      "title": "SVG icon sprite — Local Converter",
+      "description": "Combine separate SVG icons into one reusable symbol sheet. Use SVG icon sprite locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/svg-sprite"
+    },
+    {
+      "path": "/gif-maker",
+      "title": "Images to animated GIF — Local Converter",
+      "description": "Turn an ordered set of images into a looping animation. Use Images to animated GIF locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/gif-maker"
+    },
+    {
+      "path": "/animation-to-video",
+      "title": "GIF to video — Local Converter",
+      "description": "Turn a GIF, WebP or APNG animation into a video. Use GIF to video locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/animation-to-video"
+    },
+    {
+      "path": "/animation-convert",
+      "title": "Animated GIF, WebP and APNG — Local Converter",
+      "description": "Move between GIF, animated WebP and APNG with timing preserved. Use Animated GIF, WebP and APNG locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/animation-convert"
+    },
+    {
+      "path": "/video-to-animation",
+      "title": "Video to animated WebP, APNG or GIF — Local Converter",
+      "description": "Take a short moment from a video and make it loop. Use Video to animated WebP, APNG or GIF locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/video-to-animation"
+    },
+    {
+      "path": "/extract-frames",
+      "title": "Extract video or GIF frames — Local Converter",
+      "description": "Save video or animation frames as a downloadable image sequence. Use Extract video or GIF frames locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/extract-frames"
+    },
+    {
+      "path": "/compress-gif",
+      "title": "Compress GIF to target size — Local Converter",
+      "description": "Try a smaller palette and dimensions to reach a GIF upload limit. Use Compress GIF to target size locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/compress-gif"
+    },
+    {
+      "path": "/edit-animation",
+      "title": "Crop, trim and edit animation — Local Converter",
+      "description": "Crop, reverse, trim or change the pace of an animation. Use Crop, trim and edit animation locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/edit-animation"
+    },
+    {
+      "path": "/compress-audio",
+      "title": "Compress or trim audio — Local Converter",
+      "description": "Trim a recording and choose a smaller audio format or bitrate. Use Compress or trim audio locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/compress-audio"
+    },
+    {
+      "path": "/compress-video",
+      "title": "Compress or trim video — Local Converter",
+      "description": "Make a shorter, smaller video with clear quality controls. Use Compress or trim video locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/compress-video"
+    },
+    {
+      "path": "/transform-video",
+      "title": "Crop, rotate, speed or reverse video — Local Converter",
+      "description": "Reframe, rotate or change the playback speed of a clip. Use Crop, rotate, speed or reverse video locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/transform-video"
+    },
+    {
+      "path": "/join-audio",
+      "title": "Join audio clips — Local Converter",
+      "description": "Bring several audio clips together in your chosen order. Use Join audio clips locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/join-audio"
+    },
+    {
+      "path": "/join-video",
+      "title": "Join video clips — Local Converter",
+      "description": "Combine video clips on one consistent canvas. Use Join video clips locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/join-video"
+    },
+    {
+      "path": "/mute-video",
+      "title": "Mute video — Local Converter",
+      "description": "Save a copy of your video with its audio removed. Use Mute video locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/mute-video"
+    },
+    {
+      "path": "/replace-video-audio",
+      "title": "Replace video audio — Local Converter",
+      "description": "Pair a video with a new recording or soundtrack. Use Replace video audio locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/replace-video-audio"
+    },
+    {
+      "path": "/audio-waveform",
+      "title": "Audio waveform image — Local Converter",
+      "description": "Turn a recording into a waveform graphic. Use Audio waveform image locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/audio-waveform"
+    },
+    {
+      "path": "/video-thumbnail",
+      "title": "Video thumbnail — Local Converter",
+      "description": "Choose a moment and save it as a still image. Use Video thumbnail locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/video-thumbnail"
+    },
+    {
+      "path": "/lottie-render",
+      "title": "Lottie or TGS to animation — Local Converter",
+      "description": "Render a self-contained Lottie or Telegram TGS animation. Use Lottie or TGS to animation locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/lottie-render"
+    },
+    {
+      "path": "/convert-native-video",
+      "title": "AVI, FLV, WMV, MPEG or TS to video — Local Converter",
+      "description": "Make older AVI, FLV, WMV, MPEG and TS videos easier to play. Use AVI, FLV, WMV, MPEG or TS to video locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/convert-native-video"
+    },
+    {
+      "path": "/convert-native-audio",
+      "title": "AAC, Opus, WMA, AMR or APE to audio — Local Converter",
+      "description": "Open AAC, Opus, WMA, AMR or APE in a common audio format. Use AAC, Opus, WMA, AMR or APE to audio locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/convert-native-audio"
+    },
+    {
+      "path": "/convert-subtitles",
+      "title": "ASS, SSA, SRT and VTT subtitles — Local Converter",
+      "description": "Change subtitle format or shift the timing of every cue. Use ASS, SSA, SRT and VTT subtitles locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/convert-subtitles"
+    },
+    {
+      "path": "/burn-subtitles",
+      "title": "Burn subtitles into video — Local Converter",
+      "description": "Make subtitles part of the video image so they travel with the clip. Use Burn subtitles into video locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/burn-subtitles"
+    },
+    {
+      "path": "/normalize-audio",
+      "title": "Normalize loudness and fade audio — Local Converter",
+      "description": "Balance a recording’s loudness and add a gentle fade. Use Normalize loudness and fade audio locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/normalize-audio"
+    },
+    {
+      "path": "/transcribe-media",
+      "title": "Transcribe audio or video locally — Local Converter",
+      "description": "Turn spoken audio into text or timed subtitles with offline Whisper. Use Transcribe audio or video locally locally with practical instructions, output settings and format.",
+      "canonical": "https://localconverter.tech/transcribe-media"
+    },
+    {
+      "path": "/reorder-pdf",
+      "title": "Reorder PDF pages — Local Converter",
+      "description": "Put PDF pages in a new order or keep only the pages you need. Use Reorder PDF pages locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/reorder-pdf"
+    },
+    {
+      "path": "/rotate-pdf",
+      "title": "Rotate PDF pages — Local Converter",
+      "description": "Correct the orientation of selected PDF pages. Use Rotate PDF pages locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/rotate-pdf"
+    },
+    {
+      "path": "/compress-pdf",
+      "title": "Compress PDF — Local Converter",
+      "description": "Optimize PDF objects or trade selectable text for smaller page images. Use Compress PDF locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/compress-pdf"
+    },
+    {
+      "path": "/ocr-document",
+      "title": "OCR image or scanned PDF — Local Converter",
+      "description": "Make a scan searchable or extract English text from an image. Use OCR image or scanned PDF locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/ocr-document"
+    },
+    {
+      "path": "/office-render",
+      "title": "Office to PDF or page images — Local Converter",
+      "description": "Render a document, spreadsheet or presentation as PDF or page images. Use Office to PDF or page images locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/office-render"
+    },
+    {
+      "path": "/protect-pdf",
+      "title": "Password protect PDF — Local Converter",
+      "description": "Protect a PDF with an AES-256 open password. Use Password protect PDF locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/protect-pdf"
+    },
+    {
+      "path": "/unlock-pdf",
+      "title": "Unlock PDF with known password — Local Converter",
+      "description": "Save an unencrypted copy using the password you already know. Use Unlock PDF with known password locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/unlock-pdf"
+    },
+    {
+      "path": "/stamp-pdf",
+      "title": "PDF stamps and page numbers — Local Converter",
+      "description": "Add a stamp, watermark, page numbers or another PDF as an overlay. Use PDF stamps and page numbers locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/stamp-pdf"
+    },
+    {
+      "path": "/fill-pdf-form",
+      "title": "Fill and flatten PDF forms — Local Converter",
+      "description": "Fill standard PDF form fields and optionally flatten the result. Use Fill and flatten PDF forms locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/fill-pdf-form"
+    },
+    {
+      "path": "/extract-pdf-images",
+      "title": "Extract original PDF images — Local Converter",
+      "description": "Retrieve embedded images without rendering the whole page. Use Extract original PDF images locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/extract-pdf-images"
+    },
+    {
+      "path": "/compare-pdfs",
+      "title": "Compare two PDFs — Local Converter",
+      "description": "Compare text and page appearance across two versions of a PDF. Use Compare two PDFs locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/compare-pdfs"
+    },
+    {
+      "path": "/pdf-tables",
+      "title": "PDF tables to CSV or Excel — Local Converter",
+      "description": "Extract selectable-text tables into CSV files or an Excel workbook. Use PDF tables to CSV or Excel locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/pdf-tables"
+    },
+    {
+      "path": "/pdf-markdown",
+      "title": "PDF to Markdown — Local Converter",
+      "description": "Bring a PDF’s text and tables into an editable Markdown document. Use PDF to Markdown locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/pdf-markdown"
+    },
+    {
+      "path": "/render-html",
+      "title": "Render local HTML and CSS — Local Converter",
+      "description": "Render your HTML with uploaded styles and assets, without network access. Use Render local HTML and CSS locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/render-html"
+    },
+    {
+      "path": "/convert-ebook",
+      "title": "Convert EPUB, MOBI and AZW3 — Local Converter",
+      "description": "Change an unprotected ebook’s format for another reader. Use Convert EPUB, MOBI and AZW3 locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/convert-ebook"
+    },
+    {
+      "path": "/semantic-document",
+      "title": "Convert Markdown, HTML and Office text — Local Converter",
+      "description": "Move a document’s headings, paragraphs and tables between formats. Use Convert Markdown, HTML and Office text locally with practical instructions, output settings and format.",
+      "canonical": "https://localconverter.tech/semantic-document"
+    },
+    {
+      "path": "/convert-font",
+      "title": "Convert TTF, OTF, WOFF and WOFF2 — Local Converter",
+      "description": "Package a font for the web or restore its original TTF/OTF container. Use Convert TTF, OTF, WOFF and WOFF2 locally with practical instructions, output settings and format.",
+      "canonical": "https://localconverter.tech/convert-font"
+    },
+    {
+      "path": "/image-base64",
+      "title": "Image ↔ Base64 — Local Converter",
+      "description": "Move between an image and its Base64 or data URI representation. Use Image ↔ Base64 locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/image-base64"
+    },
+    {
+      "path": "/svg-gzip",
+      "title": "SVG ↔ SVGZ — Local Converter",
+      "description": "Compress a self-contained SVG or restore a compressed SVGZ. Use SVG ↔ SVGZ locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/svg-gzip"
+    },
+    {
+      "path": "/archive-browser",
+      "title": "Archive Extractor &amp; ZIP File Browser — Local Converter",
+      "description": "See the contents of an archive or save selected files together in a ZIP. Use Inspect &amp; unpack archive locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/archive-browser"
+    },
+    {
+      "path": "/create-archive",
+      "title": "Create an archive — Local Converter",
+      "description": "Pack a selection of files into ZIP, 7Z or a compressed TAR. Use Create an archive locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/create-archive"
+    },
+    {
+      "path": "/repack-tar",
+      "title": "Repack compressed TAR — Local Converter",
+      "description": "Move between TAR, TAR.GZ, TAR.BZ2 and TAR.XZ without changing file contents. Use Repack compressed TAR locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/repack-tar"
+    },
+    {
+      "path": "/clean-csv",
+      "title": "Clean CSV &amp; delimiters — Local Converter",
+      "description": "Remove duplicate rows, trim cells and export a table with your preferred delimiter. Use Clean CSV &amp; delimiters locally with practical instructions, output settings and.",
+      "canonical": "https://localconverter.tech/clean-csv"
+    },
+    {
+      "path": "/structured-data",
+      "title": "JSON · XML · TOML · YAML — Local Converter",
+      "description": "Convert structured data while preserving nested objects and arrays. Use JSON · XML · TOML · YAML locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/structured-data"
+    },
+    {
+      "path": "/format-data",
+      "title": "Format &amp; validate data — Local Converter",
+      "description": "Check syntax and create a readable or compact copy of JSON, XML or YAML. Use Format &amp; validate data locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/format-data"
+    },
+    {
+      "path": "/file-checksum",
+      "title": "File checksum — Local Converter",
+      "description": "Calculate SHA-256 or SHA-512 and compare a file against an expected checksum. Use File checksum locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/file-checksum"
+    },
+    {
+      "path": "/create-code",
+      "title": "QR &amp; barcode maker — Local Converter",
+      "description": "Create styled QR codes with an optional uploaded logo, or standard barcodes. Use QR &amp; barcode maker locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/create-code"
+    },
+    {
+      "path": "/read-code",
+      "title": "Read QR &amp; barcode — Local Converter",
+      "description": "Read a QR code or common barcode from an image and download its text. Use Read QR &amp; barcode locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/read-code"
+    },
+    {
+      "path": "/color-palette",
+      "title": "Colour converter &amp; palette — Local Converter",
+      "description": "Get HEX, RGB and HSL values with a matching light-to-dark palette. Use Colour converter &amp; palette locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/color-palette"
+    },
+    {
+      "path": "/text-encoding",
+      "title": "Text encoding &amp; escapes — Local Converter",
+      "description": "Convert character encodings, Base64, URL encoding or HTML entities. Use Text encoding &amp; escapes locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/text-encoding"
+    },
+    {
+      "path": "/generate-id",
+      "title": "UUID v4 &amp; ULID Generator — Local Converter",
+      "description": "Generate unique UUID v4 or time-sortable ULID identifiers. Use UUID / ULID generator locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/generate-id"
+    },
+    {
+      "path": "/generate-password",
+      "title": "Password &amp; Passphrase Generator — Local Converter",
+      "description": "Generate passwords or random-word passphrases with secure randomness. Use Password / passphrase generator locally with practical instructions, output settings and format.",
+      "canonical": "https://localconverter.tech/generate-password"
+    },
+    {
+      "path": "/decode-jwt",
+      "title": "JWT Decoder — Inspect Header &amp; Payload — Local Converter",
+      "description": "Inspect a JWT header, payload and expiry without asserting authenticity. Use JWT decoder locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/decode-jwt"
+    },
+    {
+      "path": "/convert-timestamp",
+      "title": "Unix Timestamp &amp; Date Converter — Local Converter",
+      "description": "Convert Unix timestamps or ISO dates into UTC and a named timezone. Use Timestamp &amp; timezone converter locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/convert-timestamp"
+    },
+    {
+      "path": "/explain-cron",
+      "title": "Cron Expression Parser &amp; Schedule Checker — Local Converter",
+      "description": "Explain a five-field cron expression and list its next run times. Use Cron expression explainer locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/explain-cron"
+    },
+    {
+      "path": "/test-regex",
+      "title": "Regex Tester with Match &amp; Capture Results — Local Converter",
+      "description": "Find matches, character positions and capture groups in your text. Use Regex tester locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/test-regex"
+    },
+    {
+      "path": "/hash-text",
+      "title": "Text hash &amp; HMAC — Local Converter",
+      "description": "Calculate SHA-256 or SHA-512 hashes and keyed HMAC digests. Use Text hash &amp; HMAC locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/hash-text"
+    },
+    {
+      "path": "/inspect-url",
+      "title": "URL inspector — Local Converter",
+      "description": "Inspect a web URL and preserve repeated query parameters. Use URL inspector locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/inspect-url"
+    },
+    {
+      "path": "/query-string",
+      "title": "Query string builder — Local Converter",
+      "description": "Parse query text or build it from JSON key/value pairs. Use Query string builder locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/query-string"
+    },
+    {
+      "path": "/number-base",
+      "title": "Number base converter — Local Converter",
+      "description": "Convert exact signed integers between binary, octal, decimal and hexadecimal. Use Number base converter locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/number-base"
+    },
+    {
+      "path": "/compare-text",
+      "title": "Text Diff Checker — Compare Two Texts — Local Converter",
+      "description": "Compare two texts and inspect inserted, removed and unchanged lines. Use Text difference checker locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/compare-text"
+    },
+    {
+      "path": "/count-text",
+      "title": "Word Counter &amp; Character Counter — Local Converter",
+      "description": "Count words, Unicode characters, sentences, paragraphs and reading time. Use Word &amp; character counter locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/count-text"
+    },
+    {
+      "path": "/change-case",
+      "title": "Text Case Converter &amp; URL Slug Generator — Local Converter",
+      "description": "Convert text to letter cases, programming identifiers or a URL slug. Use Text case &amp; slug converter locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/change-case"
+    },
+    {
+      "path": "/clean-lines",
+      "title": "Remove Duplicate Lines &amp; Clean Text — Local Converter",
+      "description": "Trim, sort and deduplicate text lines while controlling blank lines. Use Text &amp; line cleaner locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/clean-lines"
+    },
+    {
+      "path": "/placeholder-text",
+      "title": "Lorem Ipsum &amp; Placeholder Text Generator — Local Converter",
+      "description": "Generate a precise number of placeholder words or paragraphs. Use Placeholder text generator locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/placeholder-text"
+    },
+    {
+      "path": "/convert-units",
+      "title": "Unit converter — Local Converter",
+      "description": "Convert length, mass, temperature, area and decimal or binary data sizes. Use Unit converter locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/convert-units"
+    },
+    {
+      "path": "/compare-json",
+      "title": "JSON Diff Checker — Compare JSON Values — Local Converter",
+      "description": "Compare JSON objects and arrays using paths and before/after values. Use JSON difference checker locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/compare-json"
+    },
+    {
+      "path": "/query-json",
+      "title": "JSONPath Tester &amp; JSON Query Tool — Local Converter",
+      "description": "Extract values from nested JSON with a non-executable JSONPath query. Use JSONPath explorer locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/query-json"
+    },
+    {
+      "path": "/validate-json-schema",
+      "title": "JSON Schema Validator — Draft 07 — Local Converter",
+      "description": "Validate a JSON value against a local draft-07 schema and inspect errors. Use JSON Schema validator locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/validate-json-schema"
+    },
+    {
+      "path": "/format-sql",
+      "title": "SQL formatter — Local Converter",
+      "description": "Format SQL queries with a selected dialect without executing them. Use SQL formatter locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/format-sql"
+    },
+    {
+      "path": "/format-code",
+      "title": "HTML, CSS &amp; JavaScript Formatter / Minifier — Local Converter",
+      "description": "Format or minify HTML, CSS and JavaScript without executing the source. Use HTML / CSS / JavaScript formatter locally with practical instructions, output settings and format.",
+      "canonical": "https://localconverter.tech/format-code"
+    },
+    {
+      "path": "/markdown-editor",
+      "title": "Markdown Editor with Live HTML Preview — Local Converter",
+      "description": "Write Markdown with a live preview and export Markdown or clean HTML. Use Markdown live editor locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/markdown-editor"
+    },
+    {
+      "path": "/diagram-studio",
+      "title": "Mermaid Diagram Editor — Export SVG &amp; PNG — Local Converter",
+      "description": "Turn Mermaid text into flowcharts, sequence, ER, class, mindmap and Gantt diagrams. Use Diagram studio locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/diagram-studio"
+    },
+    {
+      "path": "/compare-metadata",
+      "title": "Image metadata comparison — Local Converter",
+      "description": "Compare camera, location, EXIF, IPTC and XMP information from two images. Use Image metadata comparison locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/compare-metadata"
+    },
+    {
+      "path": "/photo-privacy",
+      "title": "Photo privacy report — Local Converter",
+      "description": "Check a photo for supported location, device, author and timestamp metadata. Use Photo privacy report locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/photo-privacy"
+    },
+    {
+      "path": "/pdf-metadata",
+      "title": "PDF metadata editor — Local Converter",
+      "description": "Inspect PDF document information, edit selected fields or remove metadata. Use PDF metadata editor locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/pdf-metadata"
+    },
+    {
+      "path": "/pdf-page-size",
+      "title": "PDF page size converter — Local Converter",
+      "description": "Fit PDF pages onto A4, Letter or a custom page with adjustable margins. Use PDF page size converter locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/pdf-page-size"
+    },
+    {
+      "path": "/pdf-contact-sheet",
+      "title": "PDF contact sheet — Local Converter",
+      "description": "Create a labelled thumbnail overview of PDF pages as PNG or PDF. Use PDF contact sheet locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/pdf-contact-sheet"
+    },
+    {
+      "path": "/document-stats",
+      "title": "Document statistics — Local Converter",
+      "description": "Count extracted words, paragraphs and headings in supported text documents. Use Document statistics locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/document-stats"
+    },
+    {
+      "path": "/inspect-file",
+      "title": "File type inspector — Local Converter",
+      "description": "Inspect file signatures and compare supported detected types with the filename. Use File type inspector locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/inspect-file"
+    },
+    {
+      "path": "/docx-preview",
+      "title": "DOCX Viewer — Preview &amp; Extract Word Content — Local Converter",
+      "description": "Preview clean Word document content and inspect extraction warnings. Use DOCX preview &amp; extraction locally with practical instructions, output settings and format limits.",
+      "canonical": "https://localconverter.tech/docx-preview"
+    },
+    {
+      "path": "/jpg-to-jpg",
+      "title": "JPG to JPG Converter — Local Converter",
+      "description": "Resize and re-encode JPG images locally. Adjust supported settings, review format limits and save a new copy with Local Converter.",
+      "canonical": "https://localconverter.tech/jpg-to-jpg"
+    },
+    {
+      "path": "/jpg-to-png",
+      "title": "JPG to PNG Converter — Local Converter",
+      "description": "Convert JPG to PNG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/jpg-to-png"
+    },
+    {
+      "path": "/jpg-to-webp",
+      "title": "JPG to WEBP Converter — Local Converter",
+      "description": "Convert JPG to WEBP locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/jpg-to-webp"
+    },
+    {
+      "path": "/jpg-to-avif",
+      "title": "JPG to AVIF Converter — Local Converter",
+      "description": "Convert JPG to AVIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/jpg-to-avif"
+    },
+    {
+      "path": "/jpg-to-gif",
+      "title": "JPG to GIF Converter — Local Converter",
+      "description": "Convert JPG to GIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/jpg-to-gif"
+    },
+    {
+      "path": "/jpg-to-tiff",
+      "title": "JPG to TIFF Converter — Local Converter",
+      "description": "Convert JPG to TIFF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/jpg-to-tiff"
+    },
+    {
+      "path": "/jpg-to-pdf",
+      "title": "JPG to PDF Converter — Local Converter",
+      "description": "Convert JPG to PDF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/jpg-to-pdf"
+    },
+    {
+      "path": "/png-to-jpg",
+      "title": "PNG to JPG Converter — Local Converter",
+      "description": "Convert PNG to JPG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/png-to-jpg"
+    },
+    {
+      "path": "/png-to-png",
+      "title": "PNG to PNG Converter — Local Converter",
+      "description": "Resize and re-encode PNG images locally. Adjust supported settings, review format limits and save a new copy with Local Converter.",
+      "canonical": "https://localconverter.tech/png-to-png"
+    },
+    {
+      "path": "/png-to-webp",
+      "title": "PNG to WEBP Converter — Local Converter",
+      "description": "Convert PNG to WEBP locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/png-to-webp"
+    },
+    {
+      "path": "/png-to-avif",
+      "title": "PNG to AVIF Converter — Local Converter",
+      "description": "Convert PNG to AVIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/png-to-avif"
+    },
+    {
+      "path": "/png-to-gif",
+      "title": "PNG to GIF Converter — Local Converter",
+      "description": "Convert PNG to GIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/png-to-gif"
+    },
+    {
+      "path": "/png-to-tiff",
+      "title": "PNG to TIFF Converter — Local Converter",
+      "description": "Convert PNG to TIFF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/png-to-tiff"
+    },
+    {
+      "path": "/png-to-pdf",
+      "title": "PNG to PDF Converter — Local Converter",
+      "description": "Convert PNG to PDF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/png-to-pdf"
+    },
+    {
+      "path": "/webp-to-jpg",
+      "title": "WEBP to JPG Converter — Local Converter",
+      "description": "Convert WEBP to JPG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webp-to-jpg"
+    },
+    {
+      "path": "/webp-to-png",
+      "title": "WEBP to PNG Converter — Local Converter",
+      "description": "Convert WEBP to PNG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webp-to-png"
+    },
+    {
+      "path": "/webp-to-webp",
+      "title": "WEBP to WEBP Converter — Local Converter",
+      "description": "Resize and re-encode WEBP images locally. Adjust supported settings, review format limits and save a new copy with Local Converter.",
+      "canonical": "https://localconverter.tech/webp-to-webp"
+    },
+    {
+      "path": "/webp-to-avif",
+      "title": "WEBP to AVIF Converter — Local Converter",
+      "description": "Convert WEBP to AVIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webp-to-avif"
+    },
+    {
+      "path": "/webp-to-gif",
+      "title": "WEBP to GIF Converter — Local Converter",
+      "description": "Convert WEBP to GIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webp-to-gif"
+    },
+    {
+      "path": "/webp-to-tiff",
+      "title": "WEBP to TIFF Converter — Local Converter",
+      "description": "Convert WEBP to TIFF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webp-to-tiff"
+    },
+    {
+      "path": "/webp-to-pdf",
+      "title": "WEBP to PDF Converter — Local Converter",
+      "description": "Convert WEBP to PDF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webp-to-pdf"
+    },
+    {
+      "path": "/avif-to-jpg",
+      "title": "AVIF to JPG Converter — Local Converter",
+      "description": "Convert AVIF to JPG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/avif-to-jpg"
+    },
+    {
+      "path": "/avif-to-png",
+      "title": "AVIF to PNG Converter — Local Converter",
+      "description": "Convert AVIF to PNG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/avif-to-png"
+    },
+    {
+      "path": "/avif-to-webp",
+      "title": "AVIF to WEBP Converter — Local Converter",
+      "description": "Convert AVIF to WEBP locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/avif-to-webp"
+    },
+    {
+      "path": "/avif-to-avif",
+      "title": "AVIF to AVIF Converter — Local Converter",
+      "description": "Resize and re-encode AVIF images locally. Adjust supported settings, review format limits and save a new copy with Local Converter.",
+      "canonical": "https://localconverter.tech/avif-to-avif"
+    },
+    {
+      "path": "/avif-to-gif",
+      "title": "AVIF to GIF Converter — Local Converter",
+      "description": "Convert AVIF to GIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/avif-to-gif"
+    },
+    {
+      "path": "/avif-to-tiff",
+      "title": "AVIF to TIFF Converter — Local Converter",
+      "description": "Convert AVIF to TIFF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/avif-to-tiff"
+    },
+    {
+      "path": "/avif-to-pdf",
+      "title": "AVIF to PDF Converter — Local Converter",
+      "description": "Convert AVIF to PDF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/avif-to-pdf"
+    },
+    {
+      "path": "/gif-to-jpg",
+      "title": "GIF to JPG Converter — Local Converter",
+      "description": "Convert GIF to JPG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/gif-to-jpg"
+    },
+    {
+      "path": "/gif-to-png",
+      "title": "GIF to PNG Converter — Local Converter",
+      "description": "Convert GIF to PNG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/gif-to-png"
+    },
+    {
+      "path": "/gif-to-webp",
+      "title": "GIF to WEBP Converter — Local Converter",
+      "description": "Convert GIF to WEBP locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/gif-to-webp"
+    },
+    {
+      "path": "/gif-to-avif",
+      "title": "GIF to AVIF Converter — Local Converter",
+      "description": "Convert GIF to AVIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/gif-to-avif"
+    },
+    {
+      "path": "/gif-to-gif",
+      "title": "GIF to GIF Converter — Local Converter",
+      "description": "Resize and re-encode GIF images locally. Adjust supported settings, review format limits and save a new copy with Local Converter.",
+      "canonical": "https://localconverter.tech/gif-to-gif"
+    },
+    {
+      "path": "/gif-to-tiff",
+      "title": "GIF to TIFF Converter — Local Converter",
+      "description": "Convert GIF to TIFF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/gif-to-tiff"
+    },
+    {
+      "path": "/gif-to-pdf",
+      "title": "GIF to PDF Converter — Local Converter",
+      "description": "Convert GIF to PDF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/gif-to-pdf"
+    },
+    {
+      "path": "/tiff-to-jpg",
+      "title": "TIFF to JPG Converter — Local Converter",
+      "description": "Convert TIFF to JPG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/tiff-to-jpg"
+    },
+    {
+      "path": "/tiff-to-png",
+      "title": "TIFF to PNG Converter — Local Converter",
+      "description": "Convert TIFF to PNG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/tiff-to-png"
+    },
+    {
+      "path": "/tiff-to-webp",
+      "title": "TIFF to WEBP Converter — Local Converter",
+      "description": "Convert TIFF to WEBP locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/tiff-to-webp"
+    },
+    {
+      "path": "/tiff-to-avif",
+      "title": "TIFF to AVIF Converter — Local Converter",
+      "description": "Convert TIFF to AVIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/tiff-to-avif"
+    },
+    {
+      "path": "/tiff-to-gif",
+      "title": "TIFF to GIF Converter — Local Converter",
+      "description": "Convert TIFF to GIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/tiff-to-gif"
+    },
+    {
+      "path": "/tiff-to-tiff",
+      "title": "TIFF to TIFF Converter — Local Converter",
+      "description": "Resize and re-encode TIFF images locally. Adjust supported settings, review format limits and save a new copy with Local Converter.",
+      "canonical": "https://localconverter.tech/tiff-to-tiff"
+    },
+    {
+      "path": "/tiff-to-pdf",
+      "title": "TIFF to PDF Converter — Local Converter",
+      "description": "Convert TIFF to PDF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/tiff-to-pdf"
+    },
+    {
+      "path": "/svg-to-jpg",
+      "title": "SVG to JPG Converter — Local Converter",
+      "description": "Convert SVG to JPG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/svg-to-jpg"
+    },
+    {
+      "path": "/svg-to-png",
+      "title": "SVG to PNG Converter — Local Converter",
+      "description": "Convert SVG to PNG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/svg-to-png"
+    },
+    {
+      "path": "/svg-to-webp",
+      "title": "SVG to WEBP Converter — Local Converter",
+      "description": "Convert SVG to WEBP locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/svg-to-webp"
+    },
+    {
+      "path": "/svg-to-avif",
+      "title": "SVG to AVIF Converter — Local Converter",
+      "description": "Convert SVG to AVIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/svg-to-avif"
+    },
+    {
+      "path": "/svg-to-gif",
+      "title": "SVG to GIF Converter — Local Converter",
+      "description": "Convert SVG to GIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/svg-to-gif"
+    },
+    {
+      "path": "/svg-to-tiff",
+      "title": "SVG to TIFF Converter — Local Converter",
+      "description": "Convert SVG to TIFF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/svg-to-tiff"
+    },
+    {
+      "path": "/svg-to-pdf",
+      "title": "SVG to PDF Converter — Local Converter",
+      "description": "Convert SVG to PDF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/svg-to-pdf"
+    },
+    {
+      "path": "/pdf-to-txt",
+      "title": "PDF to TXT Converter — Local Converter",
+      "description": "Convert PDF to TXT locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/pdf-to-txt"
+    },
+    {
+      "path": "/pdf-to-png",
+      "title": "PDF to PNG Converter — Local Converter",
+      "description": "Convert PDF to PNG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/pdf-to-png"
+    },
+    {
+      "path": "/pdf-to-jpg",
+      "title": "PDF to JPG Converter — Local Converter",
+      "description": "Convert PDF to JPG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/pdf-to-jpg"
+    },
+    {
+      "path": "/csv-to-tsv",
+      "title": "CSV to TSV Converter — Local Converter",
+      "description": "Convert CSV to TSV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/csv-to-tsv"
+    },
+    {
+      "path": "/csv-to-json",
+      "title": "CSV to JSON Converter — Local Converter",
+      "description": "Convert CSV to JSON locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/csv-to-json"
+    },
+    {
+      "path": "/csv-to-yaml",
+      "title": "CSV to YAML Converter — Local Converter",
+      "description": "Convert CSV to YAML locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/csv-to-yaml"
+    },
+    {
+      "path": "/csv-to-xlsx",
+      "title": "CSV to XLSX Converter — Local Converter",
+      "description": "Convert CSV to XLSX locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/csv-to-xlsx"
+    },
+    {
+      "path": "/tsv-to-csv",
+      "title": "TSV to CSV Converter — Local Converter",
+      "description": "Convert TSV to CSV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/tsv-to-csv"
+    },
+    {
+      "path": "/tsv-to-json",
+      "title": "TSV to JSON Converter — Local Converter",
+      "description": "Convert TSV to JSON locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/tsv-to-json"
+    },
+    {
+      "path": "/tsv-to-yaml",
+      "title": "TSV to YAML Converter — Local Converter",
+      "description": "Convert TSV to YAML locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/tsv-to-yaml"
+    },
+    {
+      "path": "/tsv-to-xlsx",
+      "title": "TSV to XLSX Converter — Local Converter",
+      "description": "Convert TSV to XLSX locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/tsv-to-xlsx"
+    },
+    {
+      "path": "/json-to-csv",
+      "title": "JSON to CSV Converter — Local Converter",
+      "description": "Convert JSON to CSV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/json-to-csv"
+    },
+    {
+      "path": "/json-to-tsv",
+      "title": "JSON to TSV Converter — Local Converter",
+      "description": "Convert JSON to TSV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/json-to-tsv"
+    },
+    {
+      "path": "/json-to-yaml",
+      "title": "JSON to YAML Converter — Local Converter",
+      "description": "Convert JSON to YAML locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/json-to-yaml"
+    },
+    {
+      "path": "/json-to-xlsx",
+      "title": "JSON to XLSX Converter — Local Converter",
+      "description": "Convert JSON to XLSX locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/json-to-xlsx"
+    },
+    {
+      "path": "/yaml-to-csv",
+      "title": "YAML to CSV Converter — Local Converter",
+      "description": "Convert YAML to CSV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/yaml-to-csv"
+    },
+    {
+      "path": "/yaml-to-tsv",
+      "title": "YAML to TSV Converter — Local Converter",
+      "description": "Convert YAML to TSV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/yaml-to-tsv"
+    },
+    {
+      "path": "/yaml-to-json",
+      "title": "YAML to JSON Converter — Local Converter",
+      "description": "Convert YAML to JSON locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/yaml-to-json"
+    },
+    {
+      "path": "/yaml-to-xlsx",
+      "title": "YAML to XLSX Converter — Local Converter",
+      "description": "Convert YAML to XLSX locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/yaml-to-xlsx"
+    },
+    {
+      "path": "/xlsx-to-csv",
+      "title": "XLSX to CSV Converter — Local Converter",
+      "description": "Convert XLSX to CSV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/xlsx-to-csv"
+    },
+    {
+      "path": "/xlsx-to-tsv",
+      "title": "XLSX to TSV Converter — Local Converter",
+      "description": "Convert XLSX to TSV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/xlsx-to-tsv"
+    },
+    {
+      "path": "/xlsx-to-json",
+      "title": "XLSX to JSON Converter — Local Converter",
+      "description": "Convert XLSX to JSON locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/xlsx-to-json"
+    },
+    {
+      "path": "/xlsx-to-yaml",
+      "title": "XLSX to YAML Converter — Local Converter",
+      "description": "Convert XLSX to YAML locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/xlsx-to-yaml"
+    },
+    {
+      "path": "/txt-to-pdf",
+      "title": "TXT to PDF Converter — Local Converter",
+      "description": "Convert TXT to PDF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/txt-to-pdf"
+    },
+    {
+      "path": "/md-to-pdf",
+      "title": "MD to PDF Converter — Local Converter",
+      "description": "Convert MD to PDF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/md-to-pdf"
+    },
+    {
+      "path": "/html-to-pdf",
+      "title": "HTML to PDF Converter — Local Converter",
+      "description": "Convert HTML to PDF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/html-to-pdf"
+    },
+    {
+      "path": "/md-to-txt",
+      "title": "MD to TXT Converter — Local Converter",
+      "description": "Convert MD to TXT locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/md-to-txt"
+    },
+    {
+      "path": "/html-to-txt",
+      "title": "HTML to TXT Converter — Local Converter",
+      "description": "Convert HTML to TXT locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/html-to-txt"
+    },
+    {
+      "path": "/docx-to-txt",
+      "title": "DOCX to TXT Converter — Local Converter",
+      "description": "Convert DOCX to TXT locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/docx-to-txt"
+    },
+    {
+      "path": "/docx-to-html",
+      "title": "DOCX to HTML Converter — Local Converter",
+      "description": "Convert DOCX to HTML locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/docx-to-html"
+    },
+    {
+      "path": "/srt-to-vtt",
+      "title": "SRT to VTT Converter — Local Converter",
+      "description": "Convert SRT to VTT locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/srt-to-vtt"
+    },
+    {
+      "path": "/vtt-to-srt",
+      "title": "VTT to SRT Converter — Local Converter",
+      "description": "Convert VTT to SRT locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/vtt-to-srt"
+    },
+    {
+      "path": "/txt-to-gz",
+      "title": "TXT to GZ Converter — Local Converter",
+      "description": "Convert TXT to GZ locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/txt-to-gz"
+    },
+    {
+      "path": "/txt-to-zip",
+      "title": "TXT to ZIP Converter — Local Converter",
+      "description": "Convert TXT to ZIP locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/txt-to-zip"
+    },
+    {
+      "path": "/zip-to-gz",
+      "title": "ZIP to GZ Converter — Local Converter",
+      "description": "Convert ZIP to GZ locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/zip-to-gz"
+    },
+    {
+      "path": "/gz-to-zip",
+      "title": "GZ to ZIP Converter — Local Converter",
+      "description": "Convert GZ to ZIP locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/gz-to-zip"
+    },
+    {
+      "path": "/zip-to-tar",
+      "title": "ZIP to TAR Converter — Local Converter",
+      "description": "Convert ZIP to TAR locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/zip-to-tar"
+    },
+    {
+      "path": "/tar-to-zip",
+      "title": "TAR to ZIP Converter — Local Converter",
+      "description": "Convert TAR to ZIP locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/tar-to-zip"
+    },
+    {
+      "path": "/mp3-to-wav",
+      "title": "MP3 to WAV Converter — Local Converter",
+      "description": "Convert MP3 to WAV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mp3-to-wav"
+    },
+    {
+      "path": "/mp3-to-flac",
+      "title": "MP3 to FLAC Converter — Local Converter",
+      "description": "Convert MP3 to FLAC locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mp3-to-flac"
+    },
+    {
+      "path": "/mp3-to-ogg",
+      "title": "MP3 to OGG Converter — Local Converter",
+      "description": "Convert MP3 to OGG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mp3-to-ogg"
+    },
+    {
+      "path": "/mp3-to-m4a",
+      "title": "MP3 to M4A Converter — Local Converter",
+      "description": "Convert MP3 to M4A locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mp3-to-m4a"
+    },
+    {
+      "path": "/mp3-to-aiff",
+      "title": "MP3 to AIFF Converter — Local Converter",
+      "description": "Convert MP3 to AIFF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mp3-to-aiff"
+    },
+    {
+      "path": "/wav-to-mp3",
+      "title": "WAV to MP3 Converter — Local Converter",
+      "description": "Convert WAV to MP3 locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/wav-to-mp3"
+    },
+    {
+      "path": "/wav-to-flac",
+      "title": "WAV to FLAC Converter — Local Converter",
+      "description": "Convert WAV to FLAC locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/wav-to-flac"
+    },
+    {
+      "path": "/wav-to-ogg",
+      "title": "WAV to OGG Converter — Local Converter",
+      "description": "Convert WAV to OGG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/wav-to-ogg"
+    },
+    {
+      "path": "/wav-to-m4a",
+      "title": "WAV to M4A Converter — Local Converter",
+      "description": "Convert WAV to M4A locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/wav-to-m4a"
+    },
+    {
+      "path": "/wav-to-aiff",
+      "title": "WAV to AIFF Converter — Local Converter",
+      "description": "Convert WAV to AIFF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/wav-to-aiff"
+    },
+    {
+      "path": "/flac-to-mp3",
+      "title": "FLAC to MP3 Converter — Local Converter",
+      "description": "Convert FLAC to MP3 locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/flac-to-mp3"
+    },
+    {
+      "path": "/flac-to-wav",
+      "title": "FLAC to WAV Converter — Local Converter",
+      "description": "Convert FLAC to WAV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/flac-to-wav"
+    },
+    {
+      "path": "/flac-to-ogg",
+      "title": "FLAC to OGG Converter — Local Converter",
+      "description": "Convert FLAC to OGG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/flac-to-ogg"
+    },
+    {
+      "path": "/flac-to-m4a",
+      "title": "FLAC to M4A Converter — Local Converter",
+      "description": "Convert FLAC to M4A locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/flac-to-m4a"
+    },
+    {
+      "path": "/flac-to-aiff",
+      "title": "FLAC to AIFF Converter — Local Converter",
+      "description": "Convert FLAC to AIFF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/flac-to-aiff"
+    },
+    {
+      "path": "/ogg-to-mp3",
+      "title": "OGG to MP3 Converter — Local Converter",
+      "description": "Convert OGG to MP3 locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/ogg-to-mp3"
+    },
+    {
+      "path": "/ogg-to-wav",
+      "title": "OGG to WAV Converter — Local Converter",
+      "description": "Convert OGG to WAV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/ogg-to-wav"
+    },
+    {
+      "path": "/ogg-to-flac",
+      "title": "OGG to FLAC Converter — Local Converter",
+      "description": "Convert OGG to FLAC locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/ogg-to-flac"
+    },
+    {
+      "path": "/ogg-to-m4a",
+      "title": "OGG to M4A Converter — Local Converter",
+      "description": "Convert OGG to M4A locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/ogg-to-m4a"
+    },
+    {
+      "path": "/ogg-to-aiff",
+      "title": "OGG to AIFF Converter — Local Converter",
+      "description": "Convert OGG to AIFF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/ogg-to-aiff"
+    },
+    {
+      "path": "/m4a-to-mp3",
+      "title": "M4A to MP3 Converter — Local Converter",
+      "description": "Convert M4A to MP3 locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/m4a-to-mp3"
+    },
+    {
+      "path": "/m4a-to-wav",
+      "title": "M4A to WAV Converter — Local Converter",
+      "description": "Convert M4A to WAV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/m4a-to-wav"
+    },
+    {
+      "path": "/m4a-to-flac",
+      "title": "M4A to FLAC Converter — Local Converter",
+      "description": "Convert M4A to FLAC locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/m4a-to-flac"
+    },
+    {
+      "path": "/m4a-to-ogg",
+      "title": "M4A to OGG Converter — Local Converter",
+      "description": "Convert M4A to OGG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/m4a-to-ogg"
+    },
+    {
+      "path": "/m4a-to-aiff",
+      "title": "M4A to AIFF Converter — Local Converter",
+      "description": "Convert M4A to AIFF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/m4a-to-aiff"
+    },
+    {
+      "path": "/aiff-to-mp3",
+      "title": "AIFF to MP3 Converter — Local Converter",
+      "description": "Convert AIFF to MP3 locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/aiff-to-mp3"
+    },
+    {
+      "path": "/aiff-to-wav",
+      "title": "AIFF to WAV Converter — Local Converter",
+      "description": "Convert AIFF to WAV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/aiff-to-wav"
+    },
+    {
+      "path": "/aiff-to-flac",
+      "title": "AIFF to FLAC Converter — Local Converter",
+      "description": "Convert AIFF to FLAC locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/aiff-to-flac"
+    },
+    {
+      "path": "/aiff-to-ogg",
+      "title": "AIFF to OGG Converter — Local Converter",
+      "description": "Convert AIFF to OGG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/aiff-to-ogg"
+    },
+    {
+      "path": "/aiff-to-m4a",
+      "title": "AIFF to M4A Converter — Local Converter",
+      "description": "Convert AIFF to M4A locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/aiff-to-m4a"
+    },
+    {
+      "path": "/mp4-to-webm",
+      "title": "MP4 to WEBM Converter — Local Converter",
+      "description": "Convert MP4 to WEBM locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mp4-to-webm"
+    },
+    {
+      "path": "/mp4-to-mov",
+      "title": "MP4 to MOV Converter — Local Converter",
+      "description": "Convert MP4 to MOV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mp4-to-mov"
+    },
+    {
+      "path": "/mp4-to-mkv",
+      "title": "MP4 to MKV Converter — Local Converter",
+      "description": "Convert MP4 to MKV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mp4-to-mkv"
+    },
+    {
+      "path": "/mp4-to-gif",
+      "title": "MP4 to GIF Converter — Local Converter",
+      "description": "Convert MP4 to GIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mp4-to-gif"
+    },
+    {
+      "path": "/mp4-to-mp3",
+      "title": "MP4 to MP3 Converter — Local Converter",
+      "description": "Convert MP4 to MP3 locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mp4-to-mp3"
+    },
+    {
+      "path": "/mp4-to-wav",
+      "title": "MP4 to WAV Converter — Local Converter",
+      "description": "Convert MP4 to WAV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mp4-to-wav"
+    },
+    {
+      "path": "/mp4-to-flac",
+      "title": "MP4 to FLAC Converter — Local Converter",
+      "description": "Convert MP4 to FLAC locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mp4-to-flac"
+    },
+    {
+      "path": "/mp4-to-ogg",
+      "title": "MP4 to OGG Converter — Local Converter",
+      "description": "Convert MP4 to OGG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mp4-to-ogg"
+    },
+    {
+      "path": "/mp4-to-m4a",
+      "title": "MP4 to M4A Converter — Local Converter",
+      "description": "Convert MP4 to M4A locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mp4-to-m4a"
+    },
+    {
+      "path": "/mp4-to-aiff",
+      "title": "MP4 to AIFF Converter — Local Converter",
+      "description": "Convert MP4 to AIFF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mp4-to-aiff"
+    },
+    {
+      "path": "/webm-to-mp4",
+      "title": "WEBM to MP4 Converter — Local Converter",
+      "description": "Convert WEBM to MP4 locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webm-to-mp4"
+    },
+    {
+      "path": "/webm-to-mov",
+      "title": "WEBM to MOV Converter — Local Converter",
+      "description": "Convert WEBM to MOV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webm-to-mov"
+    },
+    {
+      "path": "/webm-to-mkv",
+      "title": "WEBM to MKV Converter — Local Converter",
+      "description": "Convert WEBM to MKV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webm-to-mkv"
+    },
+    {
+      "path": "/webm-to-gif",
+      "title": "WEBM to GIF Converter — Local Converter",
+      "description": "Convert WEBM to GIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webm-to-gif"
+    },
+    {
+      "path": "/webm-to-mp3",
+      "title": "WEBM to MP3 Converter — Local Converter",
+      "description": "Convert WEBM to MP3 locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webm-to-mp3"
+    },
+    {
+      "path": "/webm-to-wav",
+      "title": "WEBM to WAV Converter — Local Converter",
+      "description": "Convert WEBM to WAV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webm-to-wav"
+    },
+    {
+      "path": "/webm-to-flac",
+      "title": "WEBM to FLAC Converter — Local Converter",
+      "description": "Convert WEBM to FLAC locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webm-to-flac"
+    },
+    {
+      "path": "/webm-to-ogg",
+      "title": "WEBM to OGG Converter — Local Converter",
+      "description": "Convert WEBM to OGG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webm-to-ogg"
+    },
+    {
+      "path": "/webm-to-m4a",
+      "title": "WEBM to M4A Converter — Local Converter",
+      "description": "Convert WEBM to M4A locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webm-to-m4a"
+    },
+    {
+      "path": "/webm-to-aiff",
+      "title": "WEBM to AIFF Converter — Local Converter",
+      "description": "Convert WEBM to AIFF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/webm-to-aiff"
+    },
+    {
+      "path": "/mov-to-mp4",
+      "title": "MOV to MP4 Converter — Local Converter",
+      "description": "Convert MOV to MP4 locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mov-to-mp4"
+    },
+    {
+      "path": "/mov-to-webm",
+      "title": "MOV to WEBM Converter — Local Converter",
+      "description": "Convert MOV to WEBM locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mov-to-webm"
+    },
+    {
+      "path": "/mov-to-mkv",
+      "title": "MOV to MKV Converter — Local Converter",
+      "description": "Convert MOV to MKV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mov-to-mkv"
+    },
+    {
+      "path": "/mov-to-gif",
+      "title": "MOV to GIF Converter — Local Converter",
+      "description": "Convert MOV to GIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mov-to-gif"
+    },
+    {
+      "path": "/mov-to-mp3",
+      "title": "MOV to MP3 Converter — Local Converter",
+      "description": "Convert MOV to MP3 locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mov-to-mp3"
+    },
+    {
+      "path": "/mov-to-wav",
+      "title": "MOV to WAV Converter — Local Converter",
+      "description": "Convert MOV to WAV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mov-to-wav"
+    },
+    {
+      "path": "/mov-to-flac",
+      "title": "MOV to FLAC Converter — Local Converter",
+      "description": "Convert MOV to FLAC locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mov-to-flac"
+    },
+    {
+      "path": "/mov-to-ogg",
+      "title": "MOV to OGG Converter — Local Converter",
+      "description": "Convert MOV to OGG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mov-to-ogg"
+    },
+    {
+      "path": "/mov-to-m4a",
+      "title": "MOV to M4A Converter — Local Converter",
+      "description": "Convert MOV to M4A locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mov-to-m4a"
+    },
+    {
+      "path": "/mov-to-aiff",
+      "title": "MOV to AIFF Converter — Local Converter",
+      "description": "Convert MOV to AIFF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mov-to-aiff"
+    },
+    {
+      "path": "/mkv-to-mp4",
+      "title": "MKV to MP4 Converter — Local Converter",
+      "description": "Convert MKV to MP4 locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mkv-to-mp4"
+    },
+    {
+      "path": "/mkv-to-webm",
+      "title": "MKV to WEBM Converter — Local Converter",
+      "description": "Convert MKV to WEBM locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mkv-to-webm"
+    },
+    {
+      "path": "/mkv-to-mov",
+      "title": "MKV to MOV Converter — Local Converter",
+      "description": "Convert MKV to MOV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mkv-to-mov"
+    },
+    {
+      "path": "/mkv-to-gif",
+      "title": "MKV to GIF Converter — Local Converter",
+      "description": "Convert MKV to GIF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mkv-to-gif"
+    },
+    {
+      "path": "/mkv-to-mp3",
+      "title": "MKV to MP3 Converter — Local Converter",
+      "description": "Convert MKV to MP3 locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mkv-to-mp3"
+    },
+    {
+      "path": "/mkv-to-wav",
+      "title": "MKV to WAV Converter — Local Converter",
+      "description": "Convert MKV to WAV locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mkv-to-wav"
+    },
+    {
+      "path": "/mkv-to-flac",
+      "title": "MKV to FLAC Converter — Local Converter",
+      "description": "Convert MKV to FLAC locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mkv-to-flac"
+    },
+    {
+      "path": "/mkv-to-ogg",
+      "title": "MKV to OGG Converter — Local Converter",
+      "description": "Convert MKV to OGG locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mkv-to-ogg"
+    },
+    {
+      "path": "/mkv-to-m4a",
+      "title": "MKV to M4A Converter — Local Converter",
+      "description": "Convert MKV to M4A locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mkv-to-m4a"
+    },
+    {
+      "path": "/mkv-to-aiff",
+      "title": "MKV to AIFF Converter — Local Converter",
+      "description": "Convert MKV to AIFF locally with Browser. See output settings, step-by-step instructions, format limitations and common questions.",
+      "canonical": "https://localconverter.tech/mkv-to-aiff"
+    }
+  ]
+}
