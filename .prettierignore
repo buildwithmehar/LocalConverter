@@ -1,0 +1,11 @@
+node_modules/
+.artifacts/
+.tools/
+.local-data/
+.wrangler/
+dist/
+dist-public/
+public/tool-runtime/
+package-lock.json
+docs/THIRD-PARTY-NOTICES.txt
+docs/screenshots/
