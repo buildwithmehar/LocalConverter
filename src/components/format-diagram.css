@@ -1,0 +1,119 @@
+/* Keep diagram motion on the compositor. */
+.format-diagram .format-tile {
+  color: #e5e5e5;
+  border-color: #ffffff1a;
+  background: linear-gradient(145deg, #ffffff12, #ffffff05);
+  box-shadow:
+    inset 0 1px #ffffff0f,
+    0 8px 24px #00000059;
+  transition:
+    transform 160ms ease-out,
+    border-color 160ms ease-out,
+    background-color 160ms ease-out;
+}
+.format-face-stack {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.format-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+}
+.format-face strong {
+  color: #f5f5f5;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 750;
+  letter-spacing: 0.35px;
+}
+.format-face > svg {
+  width: 24px;
+  height: 32px;
+  transition: transform 160ms ease-out;
+}
+.format-diagram .output-tile {
+  color: #eeb1ae;
+  border-color: #b9363459;
+  box-shadow:
+    inset 0 1px #ffffff0f,
+    0 8px 32px #be32322e;
+}
+.output-tile .format-face strong {
+  color: #f6d7d5;
+}
+.format-diagram .format-tile > svg:last-child {
+  width: 11px;
+  height: 11px;
+  color: #85858e;
+}
+.format-diagram .output-tile > svg:last-child {
+  color: #da918b;
+}
+.format-diagram .convert-symbol:before,
+.format-diagram .convert-symbol:after {
+  content: none;
+}
+.format-diagram .convert-symbol > span {
+  position: relative;
+}
+.convert-symbol svg {
+  animation: conversion-turn 12s linear infinite;
+}
+.format-diagram[data-motion='paused'] * {
+  animation-play-state: paused;
+}
+@keyframes conversion-turn {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  .format-diagram .format-tile:hover {
+    transform: translateY(-1px);
+    border-color: #ffffff33;
+    background: linear-gradient(145deg, #ffffff16, #ffffff08);
+  }
+  .format-diagram .output-tile:hover {
+    border-color: #b936348c;
+  }
+  .format-diagram .format-tile:hover .format-face > svg {
+    transform: scale(1.03);
+  }
+  .format-diagram .format-tile:active {
+    transform: translateY(0);
+  }
+}
+@media (max-width: 600px) {
+  .format-face strong {
+    font-size: 13px;
+  }
+  .format-face > svg {
+    width: 21px;
+    height: 28px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .format-diagram *,
+  .format-diagram *:before,
+  .format-diagram *:after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .format-diagram .format-tile:hover,
+  .format-diagram .format-tile:hover .format-face > svg {
+    transform: none;
+  }
+}

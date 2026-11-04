@@ -1,0 +1,43 @@
+.info-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.info-hero > h1,
+.info-hero > p {
+  position: relative;
+  z-index: 1;
+}
+.hero-artwork-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+  background-color: #232326;
+  background-image:
+    linear-gradient(0deg, #23232655 0%, #23232608 32%, #23232608 75%, #23232633 100%),
+    url('../assets/backgrounds/hero-glass-v2.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-artwork-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, #23232633 0%, transparent 65%);
+}
+@media (max-width: 600px) {
+  .hero-artwork-image {
+    background-image:
+      linear-gradient(0deg, #23232644, transparent 45%, #23232611),
+      url('../assets/backgrounds/hero-glass-mobile-v2.webp');
+    background-position: center;
+  }
+}
+@media print {
+  .hero-artwork-image {
+    display: none;
+  }
+}

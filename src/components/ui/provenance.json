@@ -1,0 +1,37 @@
+[
+  {
+    "component": "shimmer-button",
+    "source": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/magicui/shimmer-button.tsx",
+    "upstreamSha256": "c85ffda63ba086d2078a8dacffdfc25f0b106e1566362fa251888a214ee3c010"
+  },
+  {
+    "component": "magic-card",
+    "source": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/magicui/magic-card.tsx",
+    "upstreamSha256": "6139e78ed228ebca18ed144f4a2714a89214c2ef604f1f82bc2f61204c3f3fa3"
+  },
+  {
+    "component": "border-beam",
+    "source": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/magicui/border-beam.tsx",
+    "upstreamSha256": "ccdfb52cb8f2089e7823a9edfe9c3a52e52ab6759ed5b91d184b1e2bb80cf414"
+  },
+  {
+    "component": "blur-fade",
+    "source": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/magicui/blur-fade.tsx",
+    "upstreamSha256": "99a8e83aa8817f48e26d921e959ff9abefb5c2f1f0b72b166ed95e88e015949f"
+  },
+  {
+    "component": "ripple-button",
+    "source": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/magicui/ripple-button.tsx",
+    "upstreamSha256": "446f62f2971876799014f6fab30ee76d03b022de2411c960d491c67b31b353fa"
+  },
+  {
+    "component": "animated-theme-toggler",
+    "source": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/magicui/animated-theme-toggler.tsx",
+    "upstreamSha256": "5d09afdb5968e9f7f3967943c27103d727f264fdd51fa14b10a4b3130a1970a8"
+  },
+  {
+    "component": "animated-beam",
+    "source": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/magicui/animated-beam.tsx",
+    "upstreamSha256": "6afa2ee1d01694a428eb8517d48deebe5c6b532dc0ee871800bb9d92aae43e79"
+  }
+]
