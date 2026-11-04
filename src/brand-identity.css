@@ -1,0 +1,29 @@
+/* One typographic signature for the header and footer, using the bundled Inter face. */
+.brand-wordmark {
+  font-family: 'Inter Variable', Inter, Arial, sans-serif;
+  font-weight: 650;
+  font-size: inherit;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  word-spacing: 0.035em;
+  font-kerning: normal;
+  font-optical-sizing: auto;
+  white-space: nowrap;
+}
+.header .brand {
+  gap: 12px;
+  font-size: 24px;
+  line-height: 1.15;
+}
+.footer-brand > .brand-wordmark {
+  font-size: inherit;
+  font-weight: 650;
+  letter-spacing: -0.03em;
+  color: inherit;
+}
+@media (max-width: 600px) {
+  .header .brand {
+    gap: 9px;
+    font-size: 18px;
+  }
+}

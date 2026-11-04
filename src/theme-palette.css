@@ -1,0 +1,67 @@
+/* Dark page palette; the independently themed header keeps its chosen colour. */
+:root:not([data-theme='light']) {
+  --page: #18191d;
+  --panel: #23252b;
+  --raised: #2d3037;
+  --line: #3c3f49;
+  --input: #1c1e23;
+  --text: #f2f3f5;
+  --muted: #b5b8c2;
+  --subtle: #969ba8;
+  --accent-text: #e8aaa4;
+  background: var(--page);
+  color: var(--text);
+}
+[data-theme='light'] {
+  --accent-text: #b93634;
+}
+
+/* A restrained, solid red for the primary action in either page theme. */
+.ui-action-primary {
+  background: var(--red);
+  box-shadow: 0 2px 5px #8c27251a;
+}
+.ui-action-primary:hover {
+  background: var(--red-hover);
+  box-shadow: 0 2px 5px #8c27251a;
+}
+.download-button,
+.workspace .download-button {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  color: var(--text);
+  box-shadow: none;
+}
+.download-button:hover,
+.workspace .download-button:hover {
+  background: var(--raised);
+  border-color: var(--subtle);
+  color: var(--text);
+}
+.download-button > svg {
+  color: var(--accent-text);
+}
+.help-sidebar > .help-start-link {
+  background: var(--panel);
+  border-color: var(--line);
+  color: var(--text);
+}
+.help-sidebar > .help-start-link:hover {
+  background: var(--raised);
+  color: var(--text);
+}
+
+/* Keep small accent labels readable against the darker panels. */
+.home-feature-label,
+.home-preview-output,
+.home-category-grid .ui-action[aria-pressed='true'] {
+  color: var(--accent-text);
+}
+/* Separate the title band from the page, as in the light-theme layout. */
+:root:not([data-theme='light']) .info-hero {
+  background: radial-gradient(ellipse at 90% 0, #4a2b2c66, transparent 65%), #25262b;
+  box-shadow: inset 0 -1px 0 #ffffff0d;
+}
+:root:not([data-theme='light']) :is(button, a, input, select, summary):focus-visible {
+  outline-color: var(--accent-text);
+}

@@ -1,0 +1,561 @@
+/* Shared reading scale for converter, directory and information pages. */
+:root {
+  --muted: #b5b5bf;
+  --subtle: #9696a1;
+}
+[data-theme='light'] {
+  --muted: #60606b;
+  --subtle: #73737e;
+}
+body {
+  text-rendering: optimizeLegibility;
+}
+main :is(h1, h2, h3) {
+  text-wrap: balance;
+}
+main :is(p, dd) {
+  text-wrap: pretty;
+}
+main :is(section, details),
+#main {
+  scroll-margin-top: 104px;
+}
+.section-heading h2,
+.popular-heading h2 {
+  margin: 0;
+  font-size: clamp(25px, 2.2vw, 30px);
+  line-height: 1.25;
+  letter-spacing: -0.8px;
+  font-weight: 650;
+}
+.converter-details {
+  margin-top: 16px;
+}
+.format-explanation-grid {
+  gap: 56px;
+  margin-top: 30px;
+  padding-bottom: 48px;
+}
+.format-explanation-grid > article {
+  gap: 20px;
+}
+.format-explanation-grid small {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: var(--muted);
+}
+.format-explanation-grid h3 {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+  margin-top: 5px;
+}
+.format-explanation-grid h3 > span {
+  font-size: 12px;
+  letter-spacing: 0;
+  margin-left: 7px;
+}
+.format-explanation-grid p {
+  font-size: 15px;
+  line-height: 26px;
+  margin-top: 12px;
+  max-width: 54ch;
+}
+.converter-information {
+  margin-top: 48px;
+  gap: 64px;
+  grid-template-columns: minmax(0, 1.5fr) minmax(280px, 1fr);
+}
+.section-intro {
+  font-size: 15px;
+  line-height: 26px;
+  margin-top: 16px;
+  max-width: 60ch;
+}
+.setting-descriptions {
+  margin: 26px 0 0;
+}
+.setting-descriptions > div {
+  margin-bottom: 23px;
+}
+.setting-descriptions dt {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+}
+.setting-descriptions dd {
+  margin: 7px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 26px;
+  max-width: 60ch;
+}
+.conversion-option-summary {
+  margin-top: 30px;
+  gap: 13px;
+}
+.conversion-option-summary h3 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+.conversion-option-summary p {
+  font-size: 15px;
+  line-height: 26px;
+  margin-top: 7px;
+}
+.converter-limitations {
+  margin-top: 28px;
+}
+.converter-limitations summary {
+  font-size: 14px;
+  min-height: 62px;
+}
+.converter-limitations ul {
+  font-size: 14px;
+  line-height: 25px;
+  padding-left: 20px;
+}
+.converter-limitations li + li {
+  margin-top: 9px;
+}
+.related-converters {
+  padding: 28px;
+}
+.related-converters h2 {
+  font-size: 21px;
+  line-height: 29px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  margin: 0 0 18px;
+}
+.related-converters a {
+  min-height: 55px;
+  font-size: 14px;
+  line-height: 22px;
+}
+.related-converters a > span {
+  font-weight: 500;
+}
+.related-converters .all-tools-link {
+  font-size: 13px;
+  margin-top: 12px;
+}
+.converter-faq {
+  margin-top: 60px;
+}
+.converter-faq .section-heading {
+  margin-bottom: 22px;
+}
+.converter-faq summary {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  min-height: 73px;
+}
+.converter-faq details > p {
+  font-size: 15px;
+  line-height: 27px;
+  padding: 0 32px 25px 0;
+  max-width: 74ch;
+}
+.popular-heading {
+  align-items: center;
+  margin-bottom: 26px;
+}
+.popular-heading > a {
+  font-size: 14px;
+}
+.popular-grid strong {
+  font-size: 16px;
+  line-height: 23px;
+}
+.popular-grid > a > div > span {
+  font-size: 13px;
+  line-height: 21px;
+}
+.popular-icon {
+  color: var(--muted);
+}
+.home-sections h2,
+.homepage-details h2 {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+  font-weight: 650;
+}
+.catalog > p,
+.security > p,
+.homepage-details section > p {
+  font-size: 15px;
+  line-height: 26px;
+  margin-top: 15px;
+  max-width: 64ch;
+}
+.catalog-tabs button {
+  font-size: 13px;
+}
+.catalog-details h3 {
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--text);
+}
+.format-tags a {
+  font-size: 13px;
+}
+.pair-links > a {
+  font-size: 12px;
+}
+.security li p {
+  font-size: 14px;
+  line-height: 25px;
+}
+.security li strong {
+  font-weight: 600;
+}
+.more-link {
+  font-size: 13px;
+  line-height: 22px;
+}
+.workflow-steps h3 {
+  font-size: 16px;
+  line-height: 24px;
+}
+.workflow-steps p,
+.verified-section li {
+  font-size: 14px;
+  line-height: 25px;
+}
+.homepage-details section > .verified-note {
+  font-size: 13px;
+  line-height: 23px;
+}
+.tools-summary {
+  font-size: 15px;
+  line-height: 26px;
+  max-width: 76ch;
+}
+.tools-filters label {
+  font-size: 13px;
+}
+.tools-filters input,
+.tools-filters select {
+  font-size: 14px;
+}
+.tool-link .tool-category {
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.tool-link strong {
+  font-size: 17px;
+  line-height: 25px;
+}
+.tool-link small {
+  font-size: 13px;
+  line-height: 22px;
+}
+.local-engine-list h2 {
+  font-size: 23px;
+  line-height: 31px;
+  letter-spacing: -0.5px;
+}
+.local-engine-list li {
+  font-size: 13px;
+}
+.info-hero h1 {
+  font-size: clamp(31px, 3.5vw, 42px);
+  line-height: 1.2;
+  letter-spacing: -1.1px;
+  font-weight: 650;
+}
+.info-hero p {
+  font-size: 17px;
+  line-height: 28px;
+  max-width: 62ch;
+  margin-top: 18px;
+}
+.prose {
+  max-width: 760px;
+  font-size: 16px;
+  line-height: 29px;
+}
+.prose section + section {
+  margin-top: 38px;
+}
+.prose h2 {
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+  font-weight: 600;
+  margin: 0 0 14px;
+}
+.prose p {
+  margin: 0;
+  max-width: 70ch;
+}
+.prose p a {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 4px;
+}
+.prose .secondary-button {
+  margin-top: 24px;
+}
+.converter-hero .hero-copy p {
+  max-width: 58ch;
+}
+.upload-card > p {
+  font-size: 15px;
+  line-height: 24px;
+}
+.upload-fineprint {
+  font-size: 12px;
+}
+.workspace-heading p {
+  font-size: 14px;
+  line-height: 23px;
+  max-width: 68ch;
+}
+.workspace .file-info strong {
+  font-size: 14px;
+}
+.workspace .file-info > div > span {
+  font-size: 12px;
+}
+.workspace .file-ready {
+  font-size: 11px;
+}
+.workspace .format-small,
+.workspace .format-static {
+  font-size: 12px;
+}
+.workspace .target-small,
+.workspace .options-button {
+  font-size: 13px;
+}
+.workspace-actions > p {
+  font-size: 13px;
+}
+.workspace-retention {
+  font-size: 12px;
+  line-height: 21px;
+}
+.add-files-button {
+  font-size: 13px;
+}
+.add-files-button > span {
+  font-size: 12px;
+}
+.conversion-steps li {
+  font-size: 13px;
+}
+.options-dialog header p {
+  font-size: 13px;
+  line-height: 22px;
+}
+.option-field {
+  font-size: 14px;
+}
+.option-field small {
+  font-size: 13px;
+  line-height: 22px;
+  color: var(--muted);
+}
+.limitations {
+  font-size: 13px;
+  line-height: 23px;
+}
+.picker-categories > button,
+.picker-results > button {
+  font-size: 13px;
+}
+.footer {
+  font-size: 13px;
+  line-height: 23px;
+}
+.footer > div > strong {
+  font-size: 14px;
+  font-weight: 600;
+}
+.footer p {
+  font-size: 13px;
+  line-height: 23px;
+}
+@media (max-width: 900px) {
+  .converter-information {
+    gap: 34px;
+    grid-template-columns: minmax(0, 1.2fr) minmax(250px, 1fr);
+  }
+  .format-explanation-grid {
+    gap: 30px;
+  }
+  .related-converters {
+    padding: 23px;
+  }
+  .converter-hero .hero-copy p {
+    max-width: 54ch;
+  }
+}
+@media (max-width: 600px) {
+  .section-heading h2,
+  .popular-heading h2 {
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: -0.65px;
+  }
+  .format-explanation-grid {
+    margin-top: 25px;
+    gap: 28px;
+    padding-bottom: 36px;
+  }
+  .format-explanation-grid > article {
+    gap: 15px;
+  }
+  .format-explanation-grid h3 {
+    font-size: 19px;
+  }
+  .format-explanation-grid p,
+  .section-intro,
+  .setting-descriptions dd,
+  .conversion-option-summary p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .converter-information {
+    grid-template-columns: 1fr;
+    gap: 34px;
+    margin-top: 36px;
+  }
+  .setting-descriptions {
+    margin-top: 24px;
+  }
+  .setting-descriptions dt,
+  .conversion-option-summary h3 {
+    font-size: 15px;
+  }
+  .converter-limitations summary,
+  .converter-limitations ul {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .related-converters h2 {
+    font-size: 21px;
+    line-height: 29px;
+  }
+  .related-converters a {
+    font-size: 14px;
+  }
+  .converter-faq {
+    margin-top: 42px;
+  }
+  .converter-faq summary {
+    font-size: 14px;
+    line-height: 24px;
+    min-height: 68px;
+  }
+  .converter-faq details > p {
+    font-size: 14px;
+    line-height: 25px;
+    padding-right: 12px;
+  }
+  .popular-heading > a {
+    font-size: 12px;
+  }
+  .home-sections h2,
+  .homepage-details h2 {
+    font-size: 23px;
+    line-height: 31px;
+  }
+  .catalog > p,
+  .security > p,
+  .homepage-details section > p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .catalog-tabs button {
+    font-size: 12px;
+  }
+  .catalog-details h3 {
+    font-size: 12px;
+  }
+  .pair-links > a {
+    font-size: 11px;
+  }
+  .workflow-steps p,
+  .verified-section li,
+  .security li p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .info-hero p {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .tools-summary {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .prose {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .prose h2 {
+    font-size: 23px;
+    line-height: 32px;
+  }
+  .prose section + section {
+    margin-top: 32px;
+  }
+  .upload-card > p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .upload-fineprint {
+    font-size: 10px;
+    line-height: 18px;
+  }
+  .workspace-heading p {
+    font-size: 12px;
+    line-height: 21px;
+  }
+  .workspace .file-info strong {
+    font-size: 13px;
+  }
+  .workspace .file-info > div > span {
+    font-size: 11px;
+  }
+  .workspace .target-small,
+  .workspace .options-button {
+    font-size: 12px;
+  }
+  .workspace .format-small,
+  .workspace .format-static {
+    font-size: 11px;
+  }
+  .workspace-retention {
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .add-files-button {
+    font-size: 12px;
+  }
+  .add-files-button > span {
+    font-size: 10px;
+  }
+  .conversion-steps li {
+    font-size: 9px;
+  }
+  .picker-categories > button,
+  .picker-results > button {
+    font-size: 12px;
+  }
+}

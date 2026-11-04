@@ -1,0 +1,131 @@
+/* Keep whole pages opaque; feedback is local, brief and free of light sweeps. */
+.ui-page-view {
+  opacity: 1;
+  filter: none;
+}
+.ui-surface[data-effects='static'] {
+  background: var(--panel);
+  border-color: var(--line);
+}
+.upload-card.dragging[data-effects='static'] {
+  background: var(--soft-accent);
+  border-color: var(--red);
+}
+.ui-action {
+  transition:
+    background-color 120ms ease-out,
+    border-color 120ms ease-out,
+    color 120ms ease-out,
+    transform 100ms ease-out;
+}
+.ui-action-primary {
+  background: linear-gradient(135deg, #cc4943, #a92f2d);
+  box-shadow: 0 2px 5px #8c27251a;
+}
+.ui-action-primary:hover {
+  background: linear-gradient(135deg, #cf4b44, #b53531);
+  box-shadow: 0 2px 5px #8c27251a;
+}
+.ui-action:active:not(:disabled) {
+  transform: translateY(1px);
+}
+.ui-action:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 3px;
+}
+:where(button, a, summary, input) {
+  -webkit-tap-highlight-color: transparent;
+}
+html[data-theme-switching] *,
+html[data-theme-switching] *::before,
+html[data-theme-switching] *::after {
+  transition: none !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ui-action {
+    transition: none !important;
+  }
+  .ui-action:active:not(:disabled) {
+    transform: none;
+  }
+}
+
+/* Motion stays inside foreground blocks; no viewport fades, blur or white wipes. */
+.local-progress-track {
+  width: 100%;
+  min-height: 4px;
+}
+.local-progress-track > local-conversion-progress {
+  width: 100%;
+  height: 4px;
+}
+.nav-button svg {
+  transition: transform 160ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.nav-button[aria-expanded='true'] svg {
+  transform: rotate(180deg);
+}
+@media (hover: hover) and (pointer: fine) {
+  .format-card-action svg,
+  .help-inline-link svg,
+  .help-start-link svg,
+  .recent-conversions a svg {
+    transition: transform 160ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .format-conversion-link:hover .format-card-action svg,
+  .help-inline-link:hover svg,
+  .help-start-link:hover svg,
+  .recent-conversions a:hover svg {
+    transform: translateX(3px);
+  }
+  .select-file-button:hover .ui-action-label > svg {
+    transform: rotate(90deg);
+  }
+  .select-file-button .ui-action-label > svg {
+    transition: transform 180ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+}
+@keyframes local-result-in {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.status-label.completed > svg,
+.done-label > svg {
+  animation: local-result-in 180ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .nav-button svg,
+  .format-card-action svg,
+  .help-inline-link svg,
+  .help-start-link svg,
+  .recent-conversions a svg,
+  .select-file-button .ui-action-label > svg {
+    transition: none !important;
+    transform: none !important;
+  }
+  .status-label.completed > svg,
+  .done-label > svg {
+    animation: none;
+  }
+}
+
+.header .desktop-nav > a[aria-current='page']::after {
+  content: none;
+}
+.header .desktop-nav > a > .header-active-marker {
+  padding: 0;
+  min-width: 0;
+  line-height: 0;
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  height: 2px;
+  background: var(--red);
+  border-radius: 2px;
+  pointer-events: none;
+}

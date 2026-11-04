@@ -1,0 +1,112 @@
+.hero {
+  --header-space: 90px;
+  --hero-height: 520px;
+  height: calc(var(--hero-height) + var(--header-space));
+  padding-top: var(--header-space);
+  isolation: isolate;
+  background: #222225;
+}
+.hero.hero-compact {
+  height: calc(208px + var(--header-space));
+}
+.hero-clouds {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: url('./assets/backgrounds/hero-clouds.webp') center center / cover no-repeat;
+  opacity: 0.85;
+}
+.hero::before {
+  z-index: 1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(
+      90deg,
+      #20202310 0%,
+      #202023a6 18%,
+      #20202380 42%,
+      #20202355 66%,
+      #20202322 100%
+    ),
+    linear-gradient(0deg, #20202377, transparent 35%);
+  background-size: auto;
+  mask-image: none;
+}
+.hero-inner {
+  position: relative;
+  z-index: 2;
+}
+/* Extend information-page backgrounds behind the floating header while
+   preserving the heading's original vertical position. */
+.info-hero {
+  --header-space: 90px;
+  padding-top: calc(65px + var(--header-space));
+}
+.info-hero.info-hero-centered {
+  min-height: 576px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--header-space) 32px 0;
+}
+.info-hero.info-hero-centered p {
+  max-width: 76ch;
+}
+@media (max-width: 900px) {
+  .info-hero {
+    --header-space: 82px;
+  }
+  .info-hero.info-hero-centered {
+    min-height: 520px;
+  }
+  .hero {
+    --header-space: 82px;
+    --hero-height: 564px;
+  }
+  .hero-clouds {
+    background-image: none;
+  }
+  .hero-clouds::before,
+  .hero-clouds::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('./assets/backgrounds/hero-clouds.webp');
+    background-size: auto 370px;
+    background-repeat: no-repeat;
+  }
+  .hero-clouds::before {
+    background-position: left top;
+    mask-image: linear-gradient(180deg, #000 0%, #000 36%, transparent 76%);
+  }
+  .hero-clouds::after {
+    background-position: right bottom;
+    mask-image: linear-gradient(0deg, #000 0%, #000 20%, transparent 76%);
+  }
+  .hero::before {
+    background-image: linear-gradient(
+      180deg,
+      #20202355 0%,
+      #202023b3 22%,
+      #20202380 55%,
+      #20202333 100%
+    );
+  }
+  .hero-compact .hero-clouds {
+    opacity: 0.5;
+  }
+}
+@media (max-width: 600px) {
+  .info-hero {
+    padding-top: calc(43px + var(--header-space));
+  }
+  .info-hero.info-hero-centered {
+    min-height: 460px;
+    padding: var(--header-space) 22px 0;
+  }
+  .hero {
+    --hero-height: 580px;
+  }
+}

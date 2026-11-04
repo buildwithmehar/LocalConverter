@@ -1,0 +1,146 @@
+/* Shared, bounded feedback: no pointer tracking, new loops, blur or light overlays. */
+:root {
+  --feedback-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --feedback-time: 160ms;
+  --feedback-border: color-mix(in srgb, var(--line), var(--red) 32%);
+}
+.ui-action,
+a:is(.primary-button, .secondary-button, .download-button, .help-start-link),
+.help-example-links > a,
+.format-tags > a,
+.format-diagram .format-tile {
+  transition:
+    translate var(--feedback-time) var(--feedback-ease),
+    scale 120ms var(--feedback-ease),
+    background-color var(--feedback-time) ease-out,
+    border-color var(--feedback-time) ease-out,
+    color var(--feedback-time) ease-out;
+}
+.ui-action:active:not(:disabled) {
+  transform: none;
+}
+.ui-surface[data-appear='card'] {
+  transition:
+    transform 180ms var(--feedback-ease),
+    border-color var(--feedback-time) ease-out;
+}
+:is(.popular-grid > a, .tool-link, .format-conversion-link):focus-visible > .ui-surface {
+  border-color: var(--feedback-border);
+  transition-duration: 0s;
+}
+:is(
+  .ui-action,
+  a.primary-button,
+  a.secondary-button,
+  a.download-button,
+  a.help-start-link,
+  .help-example-links > a,
+  .format-tags > a,
+  .format-tile
+):focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 3px;
+  transition-duration: 0s;
+}
+@media (hover: hover) and (pointer: fine) {
+  .ui-action:not(:disabled):hover,
+  a:is(.primary-button, .secondary-button, .download-button, .help-start-link):not(
+      [aria-disabled='true']
+    ):hover,
+  .help-example-links > a:hover,
+  .format-tags > a:hover,
+  .format-diagram .format-tile:hover {
+    translate: 0 -2px;
+  }
+  /* Vertical lists and compact icon controls get quieter 1px feedback. */
+  .ui-action:is(.ui-action-icon, .format-source-button, .nav-button):not(:disabled):hover,
+  .picker-categories .ui-action:not(:disabled):hover {
+    translate: 0 -1px;
+  }
+  .format-diagram .format-tile:hover {
+    transform: none;
+  }
+  :is(.popular-grid > a, .tool-link, .format-conversion-link):hover > .ui-surface {
+    transform: translateY(-3px);
+    border-color: var(--feedback-border);
+  }
+  .ui-surface[data-appear='card']:hover:not(.dragging) {
+    border-color: var(--feedback-border);
+  }
+  :is(.popular-grid > a, .tool-link, .format-conversion-link):active > .ui-surface {
+    transform: translateY(-1px);
+  }
+}
+.ui-action:not(:disabled):active,
+a:is(.primary-button, .secondary-button, .download-button, .help-start-link):not(
+    [aria-disabled='true']
+  ):active,
+.help-example-links > a:active,
+.format-tags > a:active,
+.format-diagram .format-tile:active {
+  translate: 0 0;
+  scale: 0.985;
+}
+/* Contextual feedback, only while a file is actually being dragged over the panel. */
+.upload-emblem {
+  transition:
+    translate 160ms var(--feedback-ease),
+    scale 160ms var(--feedback-ease);
+}
+.upload-card.dragging .upload-emblem {
+  translate: 0 -4px;
+  scale: 1.035;
+}
+
+@keyframes local-answer-in {
+  from {
+    transform: translateY(4px);
+    opacity: 0.86;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes local-download-ready {
+  from {
+    transform: translateY(4px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  /* Native details keep immediate layout/toggling. Keyboard openings stay instant. */
+  :is(.help-question-list, .converter-faq, .converter-information)
+    details[open]:not(:has(> summary:focus-visible))
+    > :is(p, ul) {
+    animation: local-answer-in 160ms var(--feedback-ease);
+  }
+  /* Real completed outputs only; limit a batch to four animated file actions. */
+  .workspace-files > .status-completed:nth-child(-n + 4) .download-button,
+  .workspace .download-all {
+    animation: local-download-ready 200ms var(--feedback-ease);
+  }
+}
+/* Motion preferences disable travel, while color/focus feedback stays meaningful. */
+@media (prefers-reduced-motion: reduce) {
+  .ui-action,
+  a:is(.primary-button, .secondary-button, .download-button, .help-start-link),
+  .help-example-links > a,
+  .format-tags > a,
+  .format-diagram .format-tile,
+  .ui-surface[data-appear='card'] {
+    transition: none !important;
+    translate: none !important;
+    scale: none !important;
+  }
+  :is(.popular-grid > a, .tool-link, .format-conversion-link) > .ui-surface {
+    transform: none !important;
+  }
+  .upload-emblem {
+    transition: none !important;
+    translate: none !important;
+    scale: none !important;
+  }
+}

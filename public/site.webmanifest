@@ -1,0 +1,16 @@
+{
+  "id": "/",
+  "name": "Local Converter",
+  "short_name": "LC",
+  "description": "Convert files on your own computer.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#211f20",
+  "background_color": "#18191d",
+  "icons": [
+    { "src": "/web-app-manifest-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/web-app-manifest-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/web-app-maskable-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

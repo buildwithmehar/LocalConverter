@@ -1,0 +1,620 @@
+/* App-specific composition of the official Magic UI components. */
+:root {
+  --color-background: var(--panel);
+  --color-border: var(--line);
+}
+.ui-page-view {
+  min-width: 0;
+  isolation: isolate;
+}
+.upload-area {
+  height: 246px;
+}
+.dedicated-upload {
+  height: 286px;
+}
+/* Center the homepage file picker on the boundary between the hero and page. */
+.hero + .upload-area:not(.dedicated-upload) {
+  height: 192px;
+}
+.hero + .upload-area:not(.dedicated-upload) .upload-card {
+  top: 0;
+  transform: translateY(-50%);
+}
+.ui-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 46px;
+  height: 46px;
+  padding: 0 19px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  white-space: nowrap;
+  isolation: isolate;
+  flex-shrink: 0;
+}
+.ui-action-label,
+.ui-action > .relative.z-10 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-width: 0;
+}
+.ui-action-primary {
+  color: white;
+  border-color: #ffffff16;
+  box-shadow:
+    inset 0 1px #ffffff12,
+    0 4px 10px #8c272525;
+  background: var(--bg);
+}
+.ui-action-primary:hover {
+  color: #fff;
+  box-shadow:
+    inset 0 1px #ffffff22,
+    0 5px 18px #8c272533;
+}
+.ui-action-secondary {
+  background: var(--panel);
+  color: var(--text);
+  box-shadow: inset 0 1px #ffffff04;
+}
+.ui-action-secondary:hover {
+  background: var(--raised);
+  border-color: var(--subtle);
+  color: var(--text);
+}
+.ui-action-ghost {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  padding: 0 10px;
+  color: var(--muted);
+}
+.ui-action-ghost:hover {
+  color: var(--text);
+  background: var(--raised);
+}
+.ui-action-icon {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  width: 44px;
+  height: 44px;
+  min-height: 44px;
+  padding: 10px;
+  color: var(--muted);
+  border-radius: 10px;
+}
+.ui-action-icon:hover {
+  color: var(--text);
+  background: var(--raised);
+}
+.ui-action:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+.ui-action:disabled * {
+  animation-play-state: paused !important;
+}
+/* Card content/beam layers stay local, below the persistent header and overlays. */
+.ui-surface {
+  position: relative;
+  isolation: isolate;
+  border: 1px solid transparent;
+  border-radius: 18px;
+  min-width: 0;
+  box-shadow: 0 10px 32px #00000009;
+}
+.ui-surface > .relative:last-child {
+  height: 100%;
+  border-radius: inherit;
+}
+.ui-card-body {
+  position: relative;
+  height: 100%;
+  min-width: 0;
+  border-radius: inherit;
+}
+.ui-effect-beam {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 5;
+}
+.upload-card.ui-surface {
+  display: block;
+  padding: 0;
+  min-height: 0;
+  border: 1px solid transparent;
+  border-radius: 22px;
+  box-shadow: 0 20px 70px #00000020;
+}
+[data-theme='light'] .upload-card.ui-surface {
+  box-shadow: 0 18px 65px #25252a12;
+}
+.upload-card .ui-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 38px 28px 30px;
+}
+.upload-card.dragging.ui-surface {
+  box-shadow:
+    0 0 0 4px var(--soft-accent),
+    0 20px 70px #0002;
+}
+.upload-card .upload-emblem {
+  width: 62px;
+  height: 62px;
+  border-radius: 18px;
+  background: linear-gradient(145deg, var(--soft-accent), transparent);
+  border: 1px solid #b9363424;
+  margin-bottom: 20px;
+  box-shadow: inset 0 1px #ffffff0c;
+}
+.upload-card h2 {
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 650;
+  letter-spacing: -0.8px;
+}
+.upload-card p {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  margin: 10px 0 25px;
+}
+.upload-card .select-file-button {
+  min-width: 180px;
+  min-height: 50px;
+  height: 50px;
+  padding: 0 24px;
+  font-size: 14px;
+}
+.upload-card .upload-fineprint {
+  margin-top: 22px;
+  font-size: 11px;
+}
+.workspace.queue.ui-surface {
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 22px;
+  overflow: visible;
+  box-shadow: 0 18px 60px #00000014;
+}
+.workspace > .relative:last-child > .ui-card-body {
+  padding: 0 28px 22px;
+}
+.workspace .file-row {
+  border-radius: 14px;
+  border-color: var(--line);
+  background: var(--page);
+}
+.workspace .target-small.ui-action,
+.workspace .options-button.ui-action {
+  border-radius: 10px;
+  min-height: 44px;
+  height: 44px;
+  padding: 0 12px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.workspace .target-small.ui-action > .relative {
+  gap: 16px;
+}
+.workspace .format-small {
+  padding: 0 4px;
+}
+.workspace .delete-button.ui-action {
+  width: 44px;
+  height: 44px;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+.workspace .clear-files-button.ui-action {
+  min-height: 44px;
+  border-radius: 9px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.workspace .add-files-button.ui-action {
+  width: 100%;
+  min-height: 56px;
+  height: auto;
+  padding: 16px;
+  border: 1px dashed var(--line);
+  background: transparent;
+  box-shadow: none;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 12px;
+}
+.workspace .add-files-button.ui-action > .relative {
+  gap: 9px;
+}
+.workspace .add-files-button.ui-action:hover {
+  background: var(--raised);
+}
+.workspace .add-files-button span:not(.pointer-events-none) {
+  color: var(--subtle);
+  font-size: 12px;
+}
+.workspace-action-buttons .ui-action-primary {
+  min-width: 154px;
+  height: 50px;
+}
+.workspace .download-button,
+.workspace .download-all {
+  min-height: 44px;
+  border-radius: 11px;
+  font-size: 13px;
+}
+.workspace .download-button {
+  background: linear-gradient(135deg, #cc4943, #a92f2d);
+  box-shadow: 0 4px 10px #8c27251c;
+}
+.workspace .download-all {
+  background: var(--panel);
+  border: 1px solid var(--line);
+}
+.popular-grid > a {
+  padding: 0;
+  border: 0;
+  background: none;
+  border-radius: 16px;
+}
+.popular-grid > a:hover {
+  background: none;
+  border: 0;
+}
+.popular-magic-card {
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+}
+.popular-card-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 22px;
+  min-height: 102px;
+}
+.popular-card-content > div {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.popular-card-content > div > span {
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--muted);
+}
+.popular-card-content .popular-icon {
+  width: 43px;
+  height: 45px;
+  border-radius: 11px;
+  background: var(--raised);
+  border: 1px solid var(--line);
+}
+.popular-card-content strong {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+}
+.tool-list {
+  gap: 15px;
+}
+.tool-link {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  border-radius: 16px;
+}
+.tool-link:hover {
+  border: 0;
+  background: transparent;
+}
+.tool-magic-card {
+  border-radius: 16px;
+  height: 100%;
+}
+.tool-card-content {
+  padding: 23px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+}
+.tool-card-content .tool-category {
+  color: var(--subtle);
+}
+.tool-card-content strong {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+}
+.tool-card-content small {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 22px;
+}
+.format-explanation-grid {
+  gap: 18px;
+  border: 0;
+  padding-bottom: 0;
+}
+.format-detail-card {
+  border-radius: 18px;
+}
+.format-detail-card .ui-card-body {
+  display: flex;
+  align-items: start;
+  gap: 19px;
+  padding: 25px;
+}
+.format-detail-card .detail-format-icon {
+  width: 46px;
+  height: 54px;
+  border-radius: 11px;
+}
+.format-detail-card h3 {
+  margin-top: 4px;
+}
+.format-detail-card p {
+  font-size: 14px;
+  line-height: 25px;
+  max-width: 50ch;
+}
+.related-converters.ui-surface {
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 18px;
+}
+.related-converters .ui-card-body {
+  padding: 28px;
+}
+.converter-information {
+  margin-top: 56px;
+}
+.header .nav-button.ui-action {
+  min-height: 44px;
+  height: 44px;
+  padding: 0 8px;
+  color: var(--text);
+  font-size: 14px;
+  border-radius: 9px;
+}
+.header .nav-button.ui-action > .relative {
+  gap: 6px;
+}
+.header .nav-button svg {
+  width: 13px;
+  height: 13px;
+  color: var(--subtle);
+}
+.header .ui-theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 10px;
+}
+.header .ui-theme-toggle svg {
+  width: 19px;
+  height: 19px;
+}
+.header .mobile-menu-button.ui-action {
+  min-height: 44px;
+  height: 44px;
+  padding: 10px;
+}
+.catalog-tabs .ui-action {
+  padding: 0;
+  height: auto;
+  min-height: 44px;
+  border-radius: 7px;
+}
+.catalog-tabs .ui-action > .relative {
+  gap: 7px;
+}
+.picker-categories .ui-action {
+  width: 100%;
+  justify-content: start;
+  padding: 10px 8px;
+  height: auto;
+  min-height: 44px;
+}
+.picker-categories .ui-action > .relative {
+  justify-content: start;
+  gap: 7px;
+}
+.picker-results > .ui-action {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  min-height: 44px;
+  height: auto;
+  padding: 10px 7px;
+  color: var(--text);
+}
+.picker-results > .ui-action:hover {
+  background: var(--soft-accent);
+  border-color: #b9363466;
+  color: var(--text);
+}
+.options-dialog form > footer .ui-action {
+  min-width: 100px;
+}
+.options-dialog .ui-action-icon {
+  flex-shrink: 0;
+}
+.format-diagram .ui-converter-beam {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+.format-diagram .magic-format-beam {
+  position: absolute;
+  inset: 0;
+  overflow: visible;
+}
+.format-diagram .format-tile {
+  background: #2b292bf5;
+  border-color: #ffffff1c;
+  border-radius: 16px;
+  box-shadow:
+    inset 0 1px #ffffff0b,
+    0 12px 28px #0003;
+}
+.format-diagram .output-tile {
+  background: #30292bf5;
+  border-color: #b9363459;
+}
+.format-diagram .convert-symbol {
+  z-index: 2;
+}
+.format-diagram .convert-symbol > span {
+  background: #352528;
+  box-shadow: 0 0 0 7px #242225;
+}
+.static-format-beam {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  right: 25%;
+  height: 1px;
+  background: #ad777255;
+}
+@media (max-width: 900px) {
+  .workspace > .relative:last-child > .ui-card-body {
+    padding: 0 22px 20px;
+  }
+  .format-detail-card .ui-card-body {
+    padding: 21px;
+    gap: 15px;
+  }
+  .related-converters .ui-card-body {
+    padding: 23px;
+  }
+}
+@media (max-width: 600px) {
+  .upload-area {
+    height: 254px;
+  }
+  .dedicated-upload {
+    height: 284px;
+  }
+  .hero + .upload-area:not(.dedicated-upload) {
+    height: 198px;
+  }
+  .upload-card.ui-surface {
+    border-radius: 20px;
+  }
+  .upload-card .ui-card-body {
+    padding: 29px 18px 26px;
+  }
+  .upload-card .upload-emblem {
+    width: 53px;
+    height: 53px;
+    border-radius: 16px;
+    margin-bottom: 18px;
+  }
+  .upload-card h2 {
+    font-size: 21px;
+    line-height: 28px;
+  }
+  .upload-card p {
+    font-size: 14px;
+    line-height: 23px;
+    margin: 9px 0 22px;
+    max-width: 280px;
+  }
+  .upload-card .upload-fineprint {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+  .upload-card .select-file-button {
+    min-width: 168px;
+    height: 48px;
+    min-height: 48px;
+  }
+  .workspace.queue.ui-surface {
+    border-radius: 18px;
+  }
+  .workspace > .relative:last-child > .ui-card-body {
+    padding: 0 15px 18px;
+  }
+  .workspace .target-small.ui-action,
+  .workspace .options-button.ui-action {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+  .workspace .delete-button.ui-action {
+    padding: 10px;
+  }
+  .workspace .add-files-button.ui-action {
+    padding: 13px 9px;
+    font-size: 12px;
+  }
+  .workspace .add-files-button.ui-action > .relative {
+    gap: 7px;
+  }
+  .workspace .add-files-button span:not(.pointer-events-none) {
+    font-size: 10px;
+  }
+  .workspace-action-buttons .ui-action-primary {
+    min-width: 140px;
+    height: 48px;
+  }
+  .popular-card-content {
+    padding: 19px;
+    min-height: 95px;
+  }
+  .tool-card-content {
+    padding: 21px;
+  }
+  .format-detail-card .ui-card-body {
+    padding: 21px 18px;
+    gap: 14px;
+  }
+  .format-detail-card p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .related-converters .ui-card-body {
+    padding: 24px;
+  }
+  .converter-information {
+    margin-top: 38px;
+  }
+  .ui-action {
+    font-size: 13px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ui-action *,
+  .ui-effect-beam * {
+    animation: none !important;
+    transition: none !important;
+  }
+  .ui-surface > .absolute {
+    display: none;
+  }
+}
