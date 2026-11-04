@@ -1,0 +1,7 @@
+# Keep the Pages hostname and deployment previews out of search results.
+# Custom-domain HTML remains indexable; crawlers can read these noindex headers.
+https://localconverter.pages.dev/*
+  X-Robots-Tag: noindex, follow
+
+https://:deployment.localconverter.pages.dev/*
+  X-Robots-Tag: noindex, follow
