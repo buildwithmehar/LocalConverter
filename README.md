@@ -4,6 +4,8 @@
 
 **Convert files in your browser. Keep them on your device.**
 
+**Proprietary source. All rights reserved. Obtain a separate written license from Mehar Ali before reusing, modifying, redistributing, selling or deploying this source.** See [license terms and preserved rights](LICENSE).
+
 [Open website](https://localconverter.tech/) · [Browse tools](https://localconverter.tech/tools) · [Supported formats](https://localconverter.tech/formats)
 
 ![Local Converter desktop workspace in dark mode](docs/screenshots/home-dark.png)
@@ -105,4 +107,10 @@ Screenshots use installed Google Chrome and capture the public site by default. 
 
 **No automated test suite was run during this cleanup, at the owner's request.** Existing commands and historical results remain in [verification](docs/verification.md), clearly separated from this publication work.
 
-Read [contributing](CONTRIBUTING.md), [security reporting](SECURITY.md), [SEO changes](docs/seo.md), and [third-party notices](docs/THIRD-PARTY-NOTICES.txt). Third-party licenses remain attached to their respective dependencies and artwork.
+Read [security reporting](SECURITY.md), [SEO changes](docs/seo.md), and [third-party notices](docs/THIRD-PARTY-NOTICES.txt).
+
+## License
+
+Copyright 2026 Mehar Ali. **All rights reserved.** Original Local Converter source requires a separate written license before use, modification, redistribution, resale or deployment, subject to the exceptions in [LICENSE](LICENSE). Contact the [owner](https://github.com/buildwithmehar) to agree on permissions and any licensing fees.
+
+The public repository permits inspection under GitHub's terms; it is not a general reuse license. Previously granted licenses are not revoked. Third-party dependencies, codecs, models, components and artwork retain their own terms and notices.

@@ -1,0 +1,51 @@
+Local Converter — Proprietary Source License Notice
+
+Copyright (c) 2026 Mehar Ali
+All rights reserved.
+
+1. Scope
+
+This notice covers the original Local Converter source code, documentation
+and assets owned by Mehar Ali (the "Software"). Third-party material is
+excluded as described below.
+
+2. Separate written license required
+
+Except for the rights preserved in sections 4 and 5, you must first obtain
+an express written license from Mehar Ali before using, running, copying,
+modifying, creating derivative works from, redistributing, sublicensing,
+selling or deploying the Software, or incorporating it into another product
+or hosted service. This applies to personal and commercial source-code use.
+
+Public source-code access is not a general license to reuse the Software.
+Any permitted activities, duration, redistribution rights and applicable
+fees must be set out in a separate written agreement with the copyright owner.
+
+3. License requests
+
+Contact Mehar Ali through https://github.com/buildwithmehar to request a
+license. Permission is granted only when the copyright owner expressly
+agrees in writing. No automatic license is granted by opening an issue,
+viewing the repository or making an unsolicited payment.
+
+4. Existing and legally required rights
+
+This notice does not restrict rights required by applicable law or the
+hosting platform's terms, including GitHub's permitted viewing and forking
+of public repositories. It does not revoke rights validly granted under
+an earlier license, including any earlier MIT publication of this project.
+Use of the live website is governed separately by its applicable terms.
+
+5. Third-party material
+
+Dependencies, codecs, models, components, fonts, icons and other third-party
+material retain their respective licenses and copyright notices. This
+notice does not relicense that material or override its license obligations.
+See docs/THIRD-PARTY-NOTICES.txt and accompanying notices.
+
+6. Warranty and liability
+
+Unless a separate written agreement states otherwise, the Software is
+provided as is, without warranties, to the maximum extent allowed by law.
+The copyright owner disclaims liability arising from use of the Software
+to the maximum extent allowed by law. No trademark rights are granted.
