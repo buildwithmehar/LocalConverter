@@ -1,0 +1,4159 @@
+{
+  "formats": [
+    {
+      "id": "7z",
+      "label": "7Z archive",
+      "category": "archive",
+      "mime": "application/x-7z-compressed"
+    },
+    {
+      "id": "tar",
+      "label": "TAR archive",
+      "category": "archive",
+      "mime": "application/x-tar"
+    },
+    {
+      "id": "jpg",
+      "label": "JPEG",
+      "category": "image",
+      "mime": "image/jpeg"
+    },
+    {
+      "id": "png",
+      "label": "PNG",
+      "category": "image",
+      "mime": "image/png"
+    },
+    {
+      "id": "webp",
+      "label": "WebP",
+      "category": "image",
+      "mime": "image/webp"
+    },
+    {
+      "id": "avif",
+      "label": "AVIF",
+      "category": "image",
+      "mime": "image/avif"
+    },
+    {
+      "id": "gif",
+      "label": "GIF",
+      "category": "image",
+      "mime": "image/gif"
+    },
+    {
+      "id": "tiff",
+      "label": "TIFF",
+      "category": "image",
+      "mime": "image/tiff"
+    },
+    {
+      "id": "svg",
+      "label": "SVG",
+      "category": "vector",
+      "mime": "image/svg+xml"
+    },
+    {
+      "id": "pdf",
+      "label": "PDF",
+      "category": "document",
+      "mime": "application/pdf"
+    },
+    {
+      "id": "txt",
+      "label": "Plain text",
+      "category": "document",
+      "mime": "text/plain"
+    },
+    {
+      "id": "md",
+      "label": "Markdown",
+      "category": "document",
+      "mime": "text/markdown"
+    },
+    {
+      "id": "html",
+      "label": "HTML",
+      "category": "document",
+      "mime": "text/html"
+    },
+    {
+      "id": "docx",
+      "label": "Word DOCX",
+      "category": "document",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "id": "csv",
+      "label": "CSV",
+      "category": "spreadsheet",
+      "mime": "text/csv"
+    },
+    {
+      "id": "tsv",
+      "label": "TSV",
+      "category": "spreadsheet",
+      "mime": "text/tab-separated-values"
+    },
+    {
+      "id": "xlsx",
+      "label": "Excel XLSX",
+      "category": "spreadsheet",
+      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "id": "json",
+      "label": "JSON",
+      "category": "data",
+      "mime": "application/json"
+    },
+    {
+      "id": "yaml",
+      "label": "YAML",
+      "category": "data",
+      "mime": "application/yaml"
+    },
+    {
+      "id": "srt",
+      "label": "SubRip SRT",
+      "category": "subtitle",
+      "mime": "application/x-subrip"
+    },
+    {
+      "id": "vtt",
+      "label": "WebVTT",
+      "category": "subtitle",
+      "mime": "text/vtt"
+    },
+    {
+      "id": "zip",
+      "label": "ZIP",
+      "category": "archive",
+      "mime": "application/zip"
+    },
+    {
+      "id": "gz",
+      "label": "GZIP",
+      "category": "archive",
+      "mime": "application/gzip"
+    },
+    {
+      "id": "mp3",
+      "label": "MP3",
+      "category": "audio",
+      "mime": "audio/mpeg"
+    },
+    {
+      "id": "wav",
+      "label": "WAV",
+      "category": "audio",
+      "mime": "audio/wav"
+    },
+    {
+      "id": "flac",
+      "label": "FLAC",
+      "category": "audio",
+      "mime": "audio/flac"
+    },
+    {
+      "id": "ogg",
+      "label": "Ogg Vorbis",
+      "category": "audio",
+      "mime": "audio/ogg"
+    },
+    {
+      "id": "m4a",
+      "label": "M4A AAC",
+      "category": "audio",
+      "mime": "audio/mp4"
+    },
+    {
+      "id": "aiff",
+      "label": "AIFF",
+      "category": "audio",
+      "mime": "audio/aiff"
+    },
+    {
+      "id": "mp4",
+      "label": "MP4 H.264",
+      "category": "video",
+      "mime": "video/mp4"
+    },
+    {
+      "id": "webm",
+      "label": "WebM VP9",
+      "category": "video",
+      "mime": "video/webm"
+    },
+    {
+      "id": "mov",
+      "label": "QuickTime MOV",
+      "category": "video",
+      "mime": "video/quicktime"
+    },
+    {
+      "id": "mkv",
+      "label": "Matroska MKV",
+      "category": "video",
+      "mime": "video/x-matroska"
+    }
+  ],
+  "pairs": [
+    {
+      "source": "jpg",
+      "target": "jpg",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "jpg",
+      "target": "png",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "jpg",
+      "target": "webp",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "jpg",
+      "target": "avif",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "jpg",
+      "target": "gif",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "jpg",
+      "target": "tiff",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "jpg",
+      "target": "pdf",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "png",
+      "target": "jpg",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "png",
+      "target": "png",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "png",
+      "target": "webp",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "png",
+      "target": "avif",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "png",
+      "target": "gif",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "png",
+      "target": "tiff",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "png",
+      "target": "pdf",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "webp",
+      "target": "jpg",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "webp",
+      "target": "png",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "webp",
+      "target": "webp",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "webp",
+      "target": "avif",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "webp",
+      "target": "gif",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "webp",
+      "target": "tiff",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "webp",
+      "target": "pdf",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "avif",
+      "target": "jpg",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "avif",
+      "target": "png",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "avif",
+      "target": "webp",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "avif",
+      "target": "avif",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "avif",
+      "target": "gif",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "avif",
+      "target": "tiff",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "avif",
+      "target": "pdf",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "gif",
+      "target": "jpg",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "gif",
+      "target": "png",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "gif",
+      "target": "webp",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "gif",
+      "target": "avif",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "gif",
+      "target": "gif",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "gif",
+      "target": "tiff",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "gif",
+      "target": "pdf",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "tiff",
+      "target": "jpg",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "tiff",
+      "target": "png",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "tiff",
+      "target": "webp",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "tiff",
+      "target": "avif",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "tiff",
+      "target": "gif",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "tiff",
+      "target": "tiff",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "tiff",
+      "target": "pdf",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "svg",
+      "target": "jpg",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "svg",
+      "target": "png",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "svg",
+      "target": "webp",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "svg",
+      "target": "avif",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "quality",
+          "label": "Quality",
+          "type": "number",
+          "default": 85,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "svg",
+      "target": "gif",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "svg",
+      "target": "tiff",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "svg",
+      "target": "pdf",
+      "engine": "Sharp",
+      "options": [
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        }
+      ],
+      "limitations": [
+        "Only the first frame/page is converted.",
+        "JPEG transparency is flattened onto white.",
+        "Metadata is removed; SVG must be self-contained, without CSS escapes."
+      ]
+    },
+    {
+      "source": "pdf",
+      "target": "txt",
+      "engine": "PDF.js",
+      "options": [],
+      "limitations": [
+        "Up to 100 pages, 40 million pixels per page and 100 million total rendered pixels; multiple image pages are packaged in one ZIP.",
+        "Text extraction requires selectable text; OCR is not included."
+      ]
+    },
+    {
+      "source": "pdf",
+      "target": "png",
+      "engine": "PDF.js",
+      "options": [
+        {
+          "key": "page",
+          "label": "Page number (0 means all)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "key": "scale",
+          "label": "Render scale",
+          "type": "number",
+          "default": 2,
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "limitations": [
+        "Up to 100 pages, 40 million pixels per page and 100 million total rendered pixels; multiple image pages are packaged in one ZIP.",
+        "Text extraction requires selectable text; OCR is not included."
+      ]
+    },
+    {
+      "source": "pdf",
+      "target": "jpg",
+      "engine": "PDF.js",
+      "options": [
+        {
+          "key": "page",
+          "label": "Page number (0 means all)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "key": "scale",
+          "label": "Render scale",
+          "type": "number",
+          "default": 2,
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "limitations": [
+        "Up to 100 pages, 40 million pixels per page and 100 million total rendered pixels; multiple image pages are packaged in one ZIP.",
+        "Text extraction requires selectable text; OCR is not included."
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "tsv",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "json",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "yaml",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "csv",
+      "target": "xlsx",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "tsv",
+      "target": "csv",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "tsv",
+      "target": "json",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "tsv",
+      "target": "yaml",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "tsv",
+      "target": "xlsx",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "json",
+      "target": "csv",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "json",
+      "target": "tsv",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "json",
+      "target": "yaml",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "json",
+      "target": "xlsx",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "yaml",
+      "target": "csv",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "yaml",
+      "target": "tsv",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "yaml",
+      "target": "json",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "yaml",
+      "target": "xlsx",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "xlsx",
+      "target": "csv",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "xlsx",
+      "target": "tsv",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "xlsx",
+      "target": "json",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "xlsx",
+      "target": "yaml",
+      "engine": "Data",
+      "options": [],
+      "limitations": [
+        "UTF-8 tables with unique column names; JSON/YAML must be arrays of flat records.",
+        "Only the first worksheet is read; styles, formulas, dates and nested values are unsupported.",
+        "Up to 100,000 cells, 50,000 rows and 200 columns. CSV/TSV fields remain strings."
+      ]
+    },
+    {
+      "source": "txt",
+      "target": "pdf",
+      "engine": "PDFKit",
+      "options": [],
+      "limitations": [
+        "Simple text flow using built-in Latin fonts; CSS, remote resources, images and exact page layout are not rendered."
+      ]
+    },
+    {
+      "source": "md",
+      "target": "pdf",
+      "engine": "PDFKit",
+      "options": [],
+      "limitations": [
+        "Simple text flow using built-in Latin fonts; CSS, remote resources, images and exact page layout are not rendered."
+      ]
+    },
+    {
+      "source": "html",
+      "target": "pdf",
+      "engine": "PDFKit",
+      "options": [],
+      "limitations": [
+        "Simple text flow using built-in Latin fonts; CSS, remote resources, images and exact page layout are not rendered."
+      ]
+    },
+    {
+      "source": "md",
+      "target": "txt",
+      "engine": "Text",
+      "options": [],
+      "limitations": ["Semantic text extraction; document layout is not preserved."]
+    },
+    {
+      "source": "html",
+      "target": "txt",
+      "engine": "Text",
+      "options": [],
+      "limitations": ["Semantic text extraction; document layout is not preserved."]
+    },
+    {
+      "source": "docx",
+      "target": "txt",
+      "engine": "Mammoth",
+      "options": [],
+      "limitations": ["Semantic text extraction; document layout is not preserved."]
+    },
+    {
+      "source": "docx",
+      "target": "html",
+      "engine": "Mammoth",
+      "options": [],
+      "limitations": [
+        "Sanitized semantic HTML; embedded images, styles and exact layout are omitted."
+      ]
+    },
+    {
+      "source": "srt",
+      "target": "vtt",
+      "engine": "Subtitles",
+      "options": [],
+      "limitations": ["Cue text/timestamps preserved; styling and cue settings are omitted."]
+    },
+    {
+      "source": "vtt",
+      "target": "srt",
+      "engine": "Subtitles",
+      "options": [],
+      "limitations": ["Cue text/timestamps preserved; styling, notes and cue settings are omitted."]
+    },
+    {
+      "source": "txt",
+      "target": "gz",
+      "engine": "Archive",
+      "options": [],
+      "limitations": [
+        "ZIP to GZIP compresses the ZIP container, without extracting files.",
+        "GZIP to ZIP stores its decompressed bytes as content.",
+        "Archive expansion capped at 100 MB and 1,000 entries; unsafe paths are rejected."
+      ]
+    },
+    {
+      "source": "txt",
+      "target": "zip",
+      "engine": "Archive",
+      "options": [],
+      "limitations": [
+        "ZIP to GZIP compresses the ZIP container, without extracting files.",
+        "GZIP to ZIP stores its decompressed bytes as content.",
+        "Archive expansion capped at 100 MB and 1,000 entries; unsafe paths are rejected."
+      ]
+    },
+    {
+      "source": "zip",
+      "target": "gz",
+      "engine": "Archive",
+      "options": [],
+      "limitations": [
+        "ZIP to GZIP compresses the ZIP container, without extracting files.",
+        "GZIP to ZIP stores its decompressed bytes as content.",
+        "Archive expansion capped at 100 MB and 1,000 entries; unsafe paths are rejected."
+      ]
+    },
+    {
+      "source": "gz",
+      "target": "zip",
+      "engine": "Archive",
+      "options": [],
+      "limitations": [
+        "ZIP to GZIP compresses the ZIP container, without extracting files.",
+        "GZIP to ZIP stores its decompressed bytes as content.",
+        "Archive expansion capped at 100 MB and 1,000 entries; unsafe paths are rejected."
+      ]
+    },
+    {
+      "source": "zip",
+      "target": "7z",
+      "engine": "7-Zip",
+      "options": [
+        {
+          "key": "compression",
+          "label": "Compression level",
+          "type": "number",
+          "default": 5,
+          "min": 0,
+          "max": 9
+        }
+      ],
+      "limitations": [
+        "Repackages regular files and folders; timestamps and permissions are not preserved.",
+        "Up to 100 MB expanded and 1,000 entries. Encrypted, unsafe paths, links and special entries are rejected."
+      ]
+    },
+    {
+      "source": "zip",
+      "target": "tar",
+      "engine": "7-Zip",
+      "options": [],
+      "limitations": [
+        "Repackages regular files and folders; timestamps and permissions are not preserved.",
+        "Up to 100 MB expanded and 1,000 entries. Encrypted, unsafe paths, links and special entries are rejected."
+      ]
+    },
+    {
+      "source": "7z",
+      "target": "zip",
+      "engine": "7-Zip",
+      "options": [
+        {
+          "key": "compression",
+          "label": "Compression level",
+          "type": "number",
+          "default": 5,
+          "min": 0,
+          "max": 9
+        }
+      ],
+      "limitations": [
+        "Repackages regular files and folders; timestamps and permissions are not preserved.",
+        "Up to 100 MB expanded and 1,000 entries. Encrypted, unsafe paths, links and special entries are rejected."
+      ]
+    },
+    {
+      "source": "7z",
+      "target": "tar",
+      "engine": "7-Zip",
+      "options": [],
+      "limitations": [
+        "Repackages regular files and folders; timestamps and permissions are not preserved.",
+        "Up to 100 MB expanded and 1,000 entries. Encrypted, unsafe paths, links and special entries are rejected."
+      ]
+    },
+    {
+      "source": "tar",
+      "target": "zip",
+      "engine": "7-Zip",
+      "options": [
+        {
+          "key": "compression",
+          "label": "Compression level",
+          "type": "number",
+          "default": 5,
+          "min": 0,
+          "max": 9
+        }
+      ],
+      "limitations": [
+        "Repackages regular files and folders; timestamps and permissions are not preserved.",
+        "Up to 100 MB expanded and 1,000 entries. Encrypted, unsafe paths, links and special entries are rejected."
+      ]
+    },
+    {
+      "source": "tar",
+      "target": "7z",
+      "engine": "7-Zip",
+      "options": [
+        {
+          "key": "compression",
+          "label": "Compression level",
+          "type": "number",
+          "default": 5,
+          "min": 0,
+          "max": 9
+        }
+      ],
+      "limitations": [
+        "Repackages regular files and folders; timestamps and permissions are not preserved.",
+        "Up to 100 MB expanded and 1,000 entries. Encrypted, unsafe paths, links and special entries are rejected."
+      ]
+    },
+    {
+      "source": "mp3",
+      "target": "wav",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "mp3",
+      "target": "flac",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "mp3",
+      "target": "ogg",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "mp3",
+      "target": "m4a",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "mp3",
+      "target": "aiff",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "wav",
+      "target": "mp3",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "wav",
+      "target": "flac",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "wav",
+      "target": "ogg",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "wav",
+      "target": "m4a",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "wav",
+      "target": "aiff",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "flac",
+      "target": "mp3",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "flac",
+      "target": "wav",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "flac",
+      "target": "ogg",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "flac",
+      "target": "m4a",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "flac",
+      "target": "aiff",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "ogg",
+      "target": "mp3",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "ogg",
+      "target": "wav",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "ogg",
+      "target": "flac",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "ogg",
+      "target": "m4a",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "ogg",
+      "target": "aiff",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "m4a",
+      "target": "mp3",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "m4a",
+      "target": "wav",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "m4a",
+      "target": "flac",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "m4a",
+      "target": "ogg",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "m4a",
+      "target": "aiff",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "aiff",
+      "target": "mp3",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "aiff",
+      "target": "wav",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "aiff",
+      "target": "flac",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "aiff",
+      "target": "ogg",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "aiff",
+      "target": "m4a",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": ["Re-encoded audio; metadata removed. Input duration limited to two hours."]
+    },
+    {
+      "source": "mp4",
+      "target": "webm",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "crf",
+          "label": "Video quality (lower is better)",
+          "type": "number",
+          "default": 30,
+          "min": 0,
+          "max": 51
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mp4",
+      "target": "mov",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "crf",
+          "label": "Video quality (lower is better)",
+          "type": "number",
+          "default": 23,
+          "min": 0,
+          "max": 51
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mp4",
+      "target": "mkv",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "crf",
+          "label": "Video quality (lower is better)",
+          "type": "number",
+          "default": 23,
+          "min": 0,
+          "max": 51
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mp4",
+      "target": "gif",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels)",
+          "type": "number",
+          "default": 480,
+          "min": 16,
+          "max": 1920
+        },
+        {
+          "key": "fps",
+          "label": "Frames per second",
+          "type": "number",
+          "default": 10,
+          "min": 1,
+          "max": 30
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mp4",
+      "target": "mp3",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mp4",
+      "target": "wav",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mp4",
+      "target": "flac",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mp4",
+      "target": "ogg",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mp4",
+      "target": "m4a",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mp4",
+      "target": "aiff",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "webm",
+      "target": "mp4",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "crf",
+          "label": "Video quality (lower is better)",
+          "type": "number",
+          "default": 23,
+          "min": 0,
+          "max": 51
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "webm",
+      "target": "mov",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "crf",
+          "label": "Video quality (lower is better)",
+          "type": "number",
+          "default": 23,
+          "min": 0,
+          "max": 51
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "webm",
+      "target": "mkv",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "crf",
+          "label": "Video quality (lower is better)",
+          "type": "number",
+          "default": 23,
+          "min": 0,
+          "max": 51
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "webm",
+      "target": "gif",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels)",
+          "type": "number",
+          "default": 480,
+          "min": 16,
+          "max": 1920
+        },
+        {
+          "key": "fps",
+          "label": "Frames per second",
+          "type": "number",
+          "default": 10,
+          "min": 1,
+          "max": 30
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "webm",
+      "target": "mp3",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "webm",
+      "target": "wav",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "webm",
+      "target": "flac",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "webm",
+      "target": "ogg",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "webm",
+      "target": "m4a",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "webm",
+      "target": "aiff",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mov",
+      "target": "mp4",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "crf",
+          "label": "Video quality (lower is better)",
+          "type": "number",
+          "default": 23,
+          "min": 0,
+          "max": 51
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mov",
+      "target": "webm",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "crf",
+          "label": "Video quality (lower is better)",
+          "type": "number",
+          "default": 30,
+          "min": 0,
+          "max": 51
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mov",
+      "target": "mkv",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "crf",
+          "label": "Video quality (lower is better)",
+          "type": "number",
+          "default": 23,
+          "min": 0,
+          "max": 51
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mov",
+      "target": "gif",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels)",
+          "type": "number",
+          "default": 480,
+          "min": 16,
+          "max": 1920
+        },
+        {
+          "key": "fps",
+          "label": "Frames per second",
+          "type": "number",
+          "default": 10,
+          "min": 1,
+          "max": 30
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mov",
+      "target": "mp3",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mov",
+      "target": "wav",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mov",
+      "target": "flac",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mov",
+      "target": "ogg",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mov",
+      "target": "m4a",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mov",
+      "target": "aiff",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mkv",
+      "target": "mp4",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "crf",
+          "label": "Video quality (lower is better)",
+          "type": "number",
+          "default": 23,
+          "min": 0,
+          "max": 51
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mkv",
+      "target": "webm",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "crf",
+          "label": "Video quality (lower is better)",
+          "type": "number",
+          "default": 30,
+          "min": 0,
+          "max": 51
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mkv",
+      "target": "mov",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels; 0 keeps original)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 8192
+        },
+        {
+          "key": "crf",
+          "label": "Video quality (lower is better)",
+          "type": "number",
+          "default": 23,
+          "min": 0,
+          "max": 51
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mkv",
+      "target": "gif",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "width",
+          "label": "Width (pixels)",
+          "type": "number",
+          "default": 480,
+          "min": 16,
+          "max": 1920
+        },
+        {
+          "key": "fps",
+          "label": "Frames per second",
+          "type": "number",
+          "default": 10,
+          "min": 1,
+          "max": 30
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mkv",
+      "target": "mp3",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mkv",
+      "target": "wav",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mkv",
+      "target": "flac",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mkv",
+      "target": "ogg",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mkv",
+      "target": "m4a",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "audioBitrate",
+          "label": "Audio bitrate (kbps)",
+          "type": "number",
+          "default": 192,
+          "min": 32,
+          "max": 320
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    },
+    {
+      "source": "mkv",
+      "target": "aiff",
+      "engine": "FFmpeg",
+      "options": [
+        {
+          "key": "start",
+          "label": "Start time (seconds)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        },
+        {
+          "key": "duration",
+          "label": "Duration (seconds; 0 keeps remaining)",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 7200
+        }
+      ],
+      "limitations": [
+        "Only first video/audio streams; media is re-encoded, metadata removed.",
+        "Audio extraction requires an audio track. GIF has no audio.",
+        "Input duration limited to two hours; MP4/MOV/MKV use H.264/AAC, WebM uses VP9/Opus."
+      ]
+    }
+  ]
+}
